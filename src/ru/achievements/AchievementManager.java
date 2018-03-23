@@ -59,6 +59,7 @@ public class AchievementManager {
 	public static final AchievementOrezTupoi achOrezTupoi = new AchievementOrezTupoi();
 	public static final AchievementVindicator achVindicator = new AchievementVindicator();
 	public static final AchievementBed achBed = new AchievementBed();
+	public static final AchievementEnchantedChainmail achEnchantedChainmail = new AchievementEnchantedChainmail();
 	public static AchievementDonz achDonz;
 	public static AchievementEasy achEasy;
 	public static AchievementMedium achMedium;
@@ -76,7 +77,7 @@ public class AchievementManager {
 		registerAll(achSpider, achEndermite, achEnderman, achLava, achWither, achDaniyal, achMusic, achArmor, achMekita, achSword, achSword2,
 				achFish, achDeath, achCreeper, achGold, achFall, achEnch, achDiamOre, achEmerOre, achBlaze, achSkeleton, achGuard, achShulker, achBlowDragon,
 				achDirt, achBath, achDanch, achOrez, achBoss, achTame, achObsidian, achStats, achVlad, achPukSpider, achBotania, achChickens,
-				achEnderPearl, achCake, achMagma, achSoulbind, achNotDaniyal, achOrezTupoi, achVindicator, achBed);
+				achEnderPearl, achCake, achMagma, achSoulbind, achNotDaniyal, achOrezTupoi, achVindicator, achBed, achEnchantedChainmail);
 		sort();
 		registerContainers();
 	}
