@@ -26,14 +26,11 @@ public class AchievementManager {
 	public static final AchievementMekita achMekita = new AchievementMekita();
 	public static final AchievementSword achSword = new AchievementSword();
 	public static final AchievementUltraSword achSword2 = new AchievementUltraSword();
-	public static final AchievementFish achFish = new AchievementFish();
 	public static final AchievementDeath achDeath = new AchievementDeath();
 	public static final AchievementCreeper achCreeper = new AchievementCreeper();
 	public static final AchievementGold achGold = new AchievementGold();
 	public static final AchievementFall achFall = new AchievementFall();
 	public static final AchievementEnchantments achEnch = new AchievementEnchantments();
-	public static final AchievementDiamondOre achDiamOre = new AchievementDiamondOre();
-	public static final AchievementEmeraldOre achEmerOre = new AchievementEmeraldOre();
 	public static final AchievementBlaze achBlaze = new AchievementBlaze();
 	public static final AchievementSkeleton achSkeleton = new AchievementSkeleton();
 	public static final AchievementGuardian achGuard = new AchievementGuardian();
@@ -75,7 +72,7 @@ public class AchievementManager {
 
 	public static void init() {
 		registerAll(achSpider, achEndermite, achEnderman, achLava, achWither, achDaniyal, achMusic, achArmor, achMekita, achSword, achSword2,
-				achFish, achDeath, achCreeper, achGold, achFall, achEnch, achDiamOre, achEmerOre, achBlaze, achSkeleton, achGuard, achShulker, achBlowDragon,
+				achDeath, achCreeper, achGold, achFall, achEnch, achBlaze, achSkeleton, achGuard, achShulker, achBlowDragon,
 				achDirt, achBath, achDanch, achOrez, achBoss, achTame, achObsidian, achStats, achVlad, achPukSpider, achBotania, achChickens,
 				achEnderPearl, achCake, achMagma, achSoulbind, achNotDaniyal, achOrezTupoi, achVindicator, achBed, achEnchantedChainmail);
 		sort();
