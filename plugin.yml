@@ -1,0 +1,57 @@
+name: LitePlugin
+main: ru.main.HardcorePlugin
+version: 2.1
+commands:
+ boss:
+  description: Показать инфу о боссах из плагина.
+  usage: /boss
+ donc:
+  description: Сказать всем, что ты донцыха тупая.
+  usage: /donc [player]
+ pos:
+  description: Позволяет узнавать позицию игроков, а также выводить координаты на экран.
+  usage: /pos [player/public/protected/status/nether/earth/friend <add/remove/list/clear/addall> [name]]
+ mark:
+  description: Записать координаты.
+  usage: /mark [add <name> [x] [y] [z] [access]/remove <name>/list [all/nickname]/info <name>/change <name> [x] [y] [z]/access <name> <access>]
+ option:
+  description: Команда для дебага.
+  usage: /option <option> <value>
+ setach:
+  description: Команда для дебага.
+  usage: /setach <ach> <true/false>
+ customitem:
+  description: Команда для дебага.
+  usage: /customitem
+ ach:
+  description: Просмотреть ачивки.
+  usage: /ach
+ cenchant:
+  description: Команда для дебага.
+  usage: /cenchant <enchantName> <level> [anyItem]
+ plugin:
+  description: Все меню плагина можно найти с помощью этой команды.
+  usage: /plugin
+ ench:
+  description: Открыть меню чаров.
+  usage: /ench
+ danchmode:
+  description: Включить/отключить данчмод.
+  usage: /danchmode
+ opt:
+  description: Открыть меню настроек.
+  usage: /opt
+ player:
+  description: Управление именами и допуском игроков (для Мекиты).
+  usage: /player
+ obs:
+  description: Начать наблюдение за меткой/игроком/координатами.
+  usage: /obs <player/xyz/info <name>/stop>
+ ping:
+  description: Посмотреть пинг.
+  usage: /ping [player]
+ message:
+  description: Установить сообщение входа/выхода на сервер . Можно использовать цвета (GREEN, BLUE, DARK_RED и т.д.), а также свое имя (ME)
+  usage: /message <join/quit> <set/show/remove>
+ 
+ 
