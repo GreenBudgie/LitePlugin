@@ -1,17 +1,15 @@
 package ru.achievements;
 
+import com.google.common.collect.Lists;
+import org.bukkit.Bukkit;
+import org.bukkit.configuration.file.YamlConfiguration;
+import org.bukkit.entity.Player;
+import ru.main.HardcorePlugin;
+
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-
-import org.bukkit.Bukkit;
-import org.bukkit.configuration.file.YamlConfiguration;
-import org.bukkit.entity.Player;
-
-import com.google.common.collect.Lists;
-
-import ru.main.HardcorePlugin;
 
 public class AchievementManager {
 
@@ -57,6 +55,7 @@ public class AchievementManager {
 	public static final AchievementVindicator achVindicator = new AchievementVindicator();
 	public static final AchievementBed achBed = new AchievementBed();
 	public static final AchievementEnchantedChainmail achEnchantedChainmail = new AchievementEnchantedChainmail();
+	public static final AchievementTNTRevenge achRevenge = new AchievementTNTRevenge();
 	public static AchievementDonz achDonz;
 	public static AchievementEasy achEasy;
 	public static AchievementMedium achMedium;
@@ -71,10 +70,10 @@ public class AchievementManager {
 	public static YamlConfiguration achInfo = YamlConfiguration.loadConfiguration(achFile);
 
 	public static void init() {
-		registerAll(achSpider, achEndermite, achEnderman, achLava, achWither, achDaniyal, achMusic, achArmor, achMekita, achSword, achSword2,
-				achDeath, achCreeper, achGold, achFall, achEnch, achBlaze, achSkeleton, achGuard, achShulker, achBlowDragon,
-				achDirt, achBath, achDanch, achOrez, achBoss, achTame, achObsidian, achStats, achVlad, achPukSpider, achBotania, achChickens,
-				achEnderPearl, achCake, achMagma, achSoulbind, achNotDaniyal, achOrezTupoi, achVindicator, achBed, achEnchantedChainmail);
+		registerAll(achSpider, achEndermite, achEnderman, achLava, achWither, achDaniyal, achMusic, achArmor, achMekita, achSword, achSword2, achDeath, achCreeper, achGold,
+				achFall, achEnch, achBlaze, achSkeleton, achGuard, achShulker, achBlowDragon, achDirt, achBath, achDanch, achOrez, achBoss, achTame, achObsidian, achStats, achVlad,
+				achPukSpider, achBotania, achChickens, achEnderPearl, achCake, achMagma, achSoulbind, achNotDaniyal, achOrezTupoi, achVindicator, achBed, achEnchantedChainmail,
+				achRevenge);
 		sort();
 		registerContainers();
 	}
