@@ -22,6 +22,7 @@ public class PlayerOptions {
 		QuitMes("null"),
 		Flair("miner"), // on, miner, off
 		MoltenCore("miner"), // on, miner, off
+		CompassBind(true),
 		MoltenCoreShift(true);
 
 		private Object defValue;
