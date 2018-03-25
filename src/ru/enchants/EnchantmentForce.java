@@ -9,7 +9,6 @@ import org.bukkit.event.player.PlayerMoveEvent;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
-
 import ru.util.InventoryHelper;
 import ru.util.MathUtils;
 
@@ -53,7 +52,7 @@ public class EnchantmentForce extends DoncEnchantment {
 	public boolean canEnchantItem(ItemStack item) {
 		return true;
 	}
-	
+
 	public int tryEnchant(int exp) {
 		if(exp >= 12 && MathUtils.chance(20 + exp / 2)) {
 			return exp >= 30 ? (MathUtils.chance(40) ? 2 : 1) : 1;
@@ -64,33 +63,31 @@ public class EnchantmentForce extends DoncEnchantment {
 	@EventHandler
 	public boolean proceedForce(PlayerMoveEvent e) {
 		Player p = e.getPlayer();
-		if(p.isSprinting()) {
-			ItemStack s = p.getInventory().getLeggings();
-			if(s != null) {
-				if(EnchantmentManager.hasCustomEnchant(s, EnchantmentManager.FORCE)) {
-					int level = EnchantmentManager.getCustomEnchant(s, EnchantmentManager.FORCE).getLevel();
-					if(level == 1) {
-						p.setWalkSpeed(0.25F);
+		ItemStack s = p.getInventory().getLeggings();
+		if(s != null) {
+			if(EnchantmentManager.hasCustomEnchant(s, EnchantmentManager.FORCE)) {
+				int level = EnchantmentManager.getCustomEnchant(s, EnchantmentManager.FORCE).getLevel();
+				if(level == 1) {
+					p.setWalkSpeed(0.24F);
+				} else {
+					if(level == 2) {
+						p.setWalkSpeed(0.28F);
 					} else {
-						if(level == 2) {
-							p.setWalkSpeed(0.28F);
-						} else {
-							p.setWalkSpeed(0.31F);
-						}
-						PotionEffect speed = p.getPotionEffect(PotionEffectType.SPEED);
-						if(speed != null && p.isOnGround()) {
-							double chance = (speed.getAmplifier() + 1) * 0.001 + (level - 1) * 0.001;
-							if(Math.random() < chance) {
-								InventoryHelper.damageItem(s, 1);
-							}
+						p.setWalkSpeed(0.32F);
+					}
+					PotionEffect speed = p.getPotionEffect(PotionEffectType.SPEED);
+					if(speed != null && p.isOnGround()) {
+						double chance = (speed.getAmplifier() + 1) * 0.001 + (level - 1) * 0.001;
+						if(Math.random() < chance) {
+							InventoryHelper.damageItem(s, 1);
 						}
 					}
-					return true;
 				}
+				return true;
 			}
 		}
 		p.setWalkSpeed(0.2F);
 		return false;
 	}
-	
+
 }
