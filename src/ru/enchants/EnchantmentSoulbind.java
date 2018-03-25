@@ -75,16 +75,16 @@ public class EnchantmentSoulbind extends DoncEnchantment {
 
 	}
 
-	private static Map<Player, List<SavedItem>> items = new HashMap<Player, List<SavedItem>>();
+	private static Map<String, List<SavedItem>> items = new HashMap<String, List<SavedItem>>();
 
 	@EventHandler
 	public void souldbindReturn(PlayerRespawnEvent e) {
 		Player p = e.getPlayer();
-		if(items.containsKey(p)) {
-			for(SavedItem item : items.get(p)) {
+		if(items.containsKey(p.getName())) {
+			for(SavedItem item : items.get(p.getName())) {
 				p.getInventory().setItem(item.slot, item.item);
 			}
-			items.remove(p);
+			items.remove(p.getName());
 		}
 	}
 
@@ -104,7 +104,7 @@ public class EnchantmentSoulbind extends DoncEnchantment {
 				for(SavedItem item : saved) {
 					drops.remove(item.item);
 				}
-				items.put(p, saved);
+				items.put(p.getName(), saved);
 			}
 		}
 	}

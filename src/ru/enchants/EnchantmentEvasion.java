@@ -87,7 +87,7 @@ public class EnchantmentEvasion extends DoncEnchantment {
 				if(evasions < jump) {
 					Location l = p.getLocation();
 					p.setVelocity(
-							new Vector((double) (-Math.sin(Math.toRadians(l.getYaw())) * 0.5F), 0.25D, (double) (Math.cos(Math.toRadians(l.getYaw())) * 0.5F)));
+							new Vector((double) (-Math.sin(Math.toRadians(l.getYaw())) * 0.6F), 0.3D, (double) (Math.cos(Math.toRadians(l.getYaw())) * 0.6F)));
 					final double t = 0.5;
 					for(int i = 0; i < 5; i++) {
 						l.getWorld().spawnParticle(Particle.CLOUD,
