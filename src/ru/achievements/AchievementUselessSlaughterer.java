@@ -1,10 +1,7 @@
 package ru.achievements;
 
 import org.bukkit.Material;
-import org.bukkit.entity.Ageable;
-import org.bukkit.entity.EntityType;
-import org.bukkit.entity.Player;
-import org.bukkit.entity.Tameable;
+import org.bukkit.entity.*;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.entity.EntityDeathEvent;
 
@@ -17,20 +14,21 @@ public class AchievementUselessSlaughterer extends ProgressiveAchievement {
 		this.setName("Юзлес живодёр");
 		this.setTask("Убить по одному детёнышу каждого мирного существа");
 		this.setInfo("Ни опыта, ни лута, так зачем же вы это делаете?");
-		this.setXp(300);
-		this.setItem(Material.FEATHER);
+		this.setXp(1000);
+		this.setItem(Material.LEATHER);
 		this.setDifficulty(Difficulty.HARD);
 		List<String> req = new ArrayList<String>();
         for(EntityType type : EntityType.values()) {
             if(type.getEntityClass() != null) {
                 for(Class<?> clazz : type.getEntityClass().getInterfaces()) {
-                    if(clazz == Ageable.class) {
+                    if(clazz == Ageable.class || clazz == Animals.class || clazz == Cow.class) {
                         req.add(type.name());
                         break;
                     }
                 }
             }
         }
+        this.setRequirements(req);
 	}
 
 	@EventHandler
