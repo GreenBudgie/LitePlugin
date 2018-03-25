@@ -5,6 +5,7 @@ import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.Sound;
 import org.bukkit.block.Block;
+import org.bukkit.craftbukkit.v1_12_R1.CraftWorld;
 import org.bukkit.craftbukkit.v1_12_R1.inventory.CraftItemStack;
 import org.bukkit.enchantments.Enchantment;
 import org.bukkit.enchantments.EnchantmentTarget;
@@ -155,7 +156,7 @@ public class EnchantmentMoltenCore extends DoncEnchantment {
 					while(i > 0) {
 						int k = net.minecraft.server.v1_12_R1.EntityExperienceOrb.getOrbValue(i);
 						i -= k;
-						net.minecraft.server.v1_12_R1.World world = MinecraftServer.getServer().getWorld();
+						net.minecraft.server.v1_12_R1.World world = ((CraftWorld) p.getWorld()).getHandle();
 						world.addEntity(new EntityExperienceOrb(world, loc.getX(), loc.getY() + 0.5D, loc.getZ() + 0.5D, k));
 					}
 				}
