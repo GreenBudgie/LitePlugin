@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="LitePlugin.jar">
+    <output-path>$PROJECT_DIR$/../../ServerHardcore/plugins</output-path>
+    <root id="archive" name="LitePlugin.jar">
+      <element id="module-output" name="Donc" />
+      <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
+    </root>
+  </artifact>
+</component>
