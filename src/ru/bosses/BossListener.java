@@ -63,7 +63,6 @@ public class BossListener implements Listener {
 		if(e.getDamager() instanceof Arrow && BossManager.isBoss(e.getEntity())) {
 			for(Boss boss : BossManager.bosses) {
 				if(boss.isEquals(e.getEntity())) {
-					Arrow arrow = (Arrow) e.getDamager();
 					if(boss.isReflectingArrows()) {
 						BossHelper.spawnParticlesAround(e.getEntity(), ParticleEffect.REDSTONE, Color.GRAY, 50);
 						e.setCancelled(true);
@@ -101,6 +100,7 @@ public class BossListener implements Listener {
 					LivingEntity ent = e.getEntity();
 					Player p = ent.getKiller();
 					boolean killed = p != null;
+					if(!killed) return; //Now boss will drop items only if it was killed by a player, otherwise boss will drop default items
 					e.setDroppedExp(boss.getXP());
 					List<ItemStack> drops = e.getDrops();
 					drops.clear();
