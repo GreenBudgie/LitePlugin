@@ -1,5 +1,6 @@
 package ru.enchants;
 
+import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.craftbukkit.v1_12_R1.entity.CraftExperienceOrb;
 import org.bukkit.craftbukkit.v1_12_R1.entity.CraftItem;
@@ -67,7 +68,7 @@ public class EnchantmentGathering extends DoncEnchantment {
 		ItemStack item = p.getInventory().getItemInMainHand();
 		if(item != null && item.getType() != Material.AIR && item.getType() != Material.ENCHANTED_BOOK
 				&& EnchantmentManager.hasCustomEnchant(item, EnchantmentManager.GATHERING)) {
-			HardcorePlugin.invokeLater(new Runnable() {
+			Bukkit.getScheduler().runTaskLater(HardcorePlugin.instance, new Runnable() {
 
 				public void run() {
 					Collection<Entity> ent = e.getBlock().getWorld().getNearbyEntities(e.getBlock().getLocation(), 1, 1, 1);
@@ -86,7 +87,7 @@ public class EnchantmentGathering extends DoncEnchantment {
 					}
 				}
 
-			});
+			}, 0L);
 		}
 	}
 

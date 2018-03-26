@@ -170,7 +170,6 @@ public class AchievementManager {
 					if(a.getClass().getSimpleName().equalsIgnoreCase(s)) {
 						del = false;
 						break;
-						//Test
 					}
 				}
 			}

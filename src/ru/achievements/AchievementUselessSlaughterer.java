@@ -4,6 +4,7 @@ import org.bukkit.Material;
 import org.bukkit.entity.*;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.entity.EntityDeathEvent;
+import ru.util.PlayerOptions;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,9 +20,9 @@ public class AchievementUselessSlaughterer extends ProgressiveAchievement {
 		this.setDifficulty(Difficulty.HARD);
 		List<String> req = new ArrayList<String>();
         for(EntityType type : EntityType.values()) {
-            if(type.getEntityClass() != null) {
+            if(type != EntityType.SKELETON_HORSE && type != EntityType.ZOMBIE_HORSE && type != EntityType.PARROT && type.getEntityClass() != null) {
                 for(Class<?> clazz : type.getEntityClass().getInterfaces()) {
-                    if(clazz == Ageable.class || clazz == Animals.class || clazz == Cow.class) {
+                    if(Ageable.class.isAssignableFrom(clazz)) {
                         req.add(type.name());
                         break;
                     }
@@ -31,11 +32,15 @@ public class AchievementUselessSlaughterer extends ProgressiveAchievement {
         this.setRequirements(req);
 	}
 
+	public boolean showRequirements(Player p) {
+		return PlayerOptions.isActive(p, PlayerOptions.Option.LongRequirements);
+	}
+
 	@EventHandler
 	public void achieve(EntityDeathEvent e) {
 		if(e.getEntity() instanceof Ageable) {
 			if(e.getEntity().getKiller() != null) {
-			    Ageable ageable = (Ageable)e.getEntity();
+			    Ageable ageable = (Ageable) e.getEntity();
 			    if (!ageable.isAdult()) {
                     Player p = e.getEntity().getKiller();
                     this.setRequirement(p, e.getEntityType().name(), true);

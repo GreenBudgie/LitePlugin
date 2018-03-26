@@ -1,8 +1,5 @@
-*.class
 *.classpath
 /.settings/*
 /.idea/*
-/bin/*
 *.project
 /Donc.iml
-*.xml

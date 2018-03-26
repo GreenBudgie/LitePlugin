@@ -15,14 +15,14 @@ public class PlayerOptions {
 	public static YamlConfiguration options = YamlConfiguration.loadConfiguration(opt);
 
 	public static enum Option {
-		LongRequirements(false),
+		LongRequirements(true),
 		Danchmode(false),
 		JoinMes("null"),
 		QuitMes("null"),
 		Flair("miner"), // on, miner, off
 		MoltenCore("miner"), // on, miner, off
 		CompassBind(true),
-		MoltenCoreShift(true);
+		MoltenCoreShift(false);
 
 		private Object defValue;
 

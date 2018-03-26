@@ -9,7 +9,15 @@
     <list default="true" id="058c5f0d-b86d-4ea1-8804-00c5d62a0b79" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementManager.class" afterPath="$PROJECT_DIR$/bin/ru/achievements/AchievementManager.class" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementUselessSlaughterer.class" afterPath="$PROJECT_DIR$/bin/ru/achievements/AchievementUselessSlaughterer.class" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/enchants/EnchantmentGathering$1.class" afterPath="$PROJECT_DIR$/bin/ru/enchants/EnchantmentGathering$1.class" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/enchants/EnchantmentGathering.class" afterPath="$PROJECT_DIR$/bin/ru/enchants/EnchantmentGathering.class" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/util/PlayerOptions$Option.class" afterPath="$PROJECT_DIR$/bin/ru/util/PlayerOptions$Option.class" />
       <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementManager.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementManager.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementUselessSlaughterer.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementUselessSlaughterer.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/enchants/EnchantmentGathering.java" afterPath="$PROJECT_DIR$/src/ru/enchants/EnchantmentGathering.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/util/PlayerOptions.java" afterPath="$PROJECT_DIR$/src/ru/util/PlayerOptions.java" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,11 +35,36 @@
       <file leaf-file-name="AchievementManager.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ru/achievements/AchievementManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="172" column="30" lean-forward="false" selection-start-line="172" selection-start-column="30" selection-end-line="172" selection-end-column="30" />
+            <state relative-caret-position="2597">
+              <caret line="185" column="5" lean-forward="true" selection-start-line="185" selection-start-column="5" selection-end-line="185" selection-end-column="5" />
               <folding>
-                <element signature="e#8461#8462#0" expanded="true" />
-                <element signature="e#8491#8492#0" expanded="true" />
+                <element signature="e#8448#8449#0" expanded="true" />
+                <element signature="e#8478#8479#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EnchantmentGathering.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/enchants/EnchantmentGathering.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="56" column="17" lean-forward="false" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HardcorePlugin.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/main/HardcorePlugin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="28">
+              <caret line="70" column="5" lean-forward="true" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+              <folding>
+                <element signature="e#2694#2695#0" expanded="true" />
+                <element signature="e#2776#2777#0" expanded="true" />
+                <element signature="e#2839#2840#0" expanded="true" />
+                <element signature="e#2928#2929#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -60,7 +93,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ru/main/HardcorePlugin.java" />
         <option value="$PROJECT_DIR$/src/ru/achievements/AchievementTNTRevenge.java" />
         <option value="$PROJECT_DIR$/src/ru/enchants/EnchantmentEvasion.java" />
         <option value="$PROJECT_DIR$/src/ru/enchants/EnchantmentSoulbind.java" />
@@ -69,12 +101,10 @@
         <option value="$PROJECT_DIR$/src/ru/bosses/BossManager.java" />
         <option value="$PROJECT_DIR$/src/ru/enchants/EnchantmentForce.java" />
         <option value="$PROJECT_DIR$/src/ru/commands/CommandObserve.java" />
-        <option value="$PROJECT_DIR$/src/ru/util/PlayerOptions.java" />
         <option value="$PROJECT_DIR$/src/ru/util/TaskManager.java" />
         <option value="$PROJECT_DIR$/src/ru/enchants/EnchantmentMoltenCore.java" />
         <option value="$PROJECT_DIR$/src/ru/achievements/AchievementTame.java" />
         <option value="$PROJECT_DIR$/src/ru/util/MathUtils.java" />
-        <option value="$PROJECT_DIR$/src/ru/achievements/AchievementUselessSlaughterer.java" />
         <option value="$PROJECT_DIR$/src/ru/achievements/DoncAchievement.java" />
         <option value="$PROJECT_DIR$/src/ru/util/InventoryHelper.java" />
         <option value="$PROJECT_DIR$/src/ru/util/EntityHelper.java" />
@@ -87,6 +117,10 @@
         <option value="$PROJECT_DIR$/src/ru/enchants/EnchantmentGreed.java" />
         <option value="$PROJECT_DIR$/src/ru/achievements/ContainerAchievement.java" />
         <option value="$PROJECT_DIR$/src/ru/achievements/AchievementManager.java" />
+        <option value="$PROJECT_DIR$/src/ru/achievements/AchievementUselessSlaughterer.java" />
+        <option value="$PROJECT_DIR$/src/ru/util/PlayerOptions.java" />
+        <option value="$PROJECT_DIR$/src/ru/main/HardcorePlugin.java" />
+        <option value="$PROJECT_DIR$/src/ru/enchants/EnchantmentGathering.java" />
       </list>
     </option>
   </component>
@@ -138,6 +172,20 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ru" type="462c0819:PsiDirectoryNode" />
               <item name="achievements" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Donc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Donc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ru" type="462c0819:PsiDirectoryNode" />
+              <item name="enchants" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Donc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Donc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ru" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -299,7 +347,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10443038" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10443038" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -343,45 +391,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ru/bosses/Boss.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="26" column="26" lean-forward="true" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
-          <folding>
-            <element signature="e#700#710#0" expanded="false" />
-            <element signature="e#830#844#0" expanded="false" />
-            <element signature="e#904#923#0" expanded="false" />
-            <element signature="e#1157#1158#0" expanded="false" />
-            <element signature="e#1189#1190#0" expanded="false" />
-            <element signature="e#1918#1929#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/bosses/BossManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="18" column="51" lean-forward="false" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/bosses/BossListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="94" column="17" lean-forward="true" selection-start-line="94" selection-start-column="17" selection-end-line="94" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/enchants/EnchantmentForce.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="71" column="24" lean-forward="true" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/commands/CommandObserve.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-341">
@@ -401,22 +410,6 @@
             <element signature="e#4877#4878#0" expanded="false" />
             <element signature="e#4944#4945#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/util/PlayerOptions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="40" column="41" lean-forward="false" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/enchants/EnchantmentGathering.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -602,16 +595,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/achievements/AchievementUselessSlaughterer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
-          <folding>
-            <element signature="e#637#645#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/util/ExperienceHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -771,13 +754,80 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="579">
+          <caret line="509" column="26" lean-forward="false" selection-start-line="509" selection-start-column="26" selection-end-line="509" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/achievements/AchievementDeath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="39" column="6" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding>
+            <element signature="e#1321#1322#0" expanded="true" />
+            <element signature="e#1399#1400#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/util/PlayerOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="24" column="29" lean-forward="false" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/achievements/AchievementUselessSlaughterer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+          <folding>
+            <element signature="e#1246#1247#0" expanded="true" />
+            <element signature="e#1324#1325#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Other/Spigot/Bukkit/src/main/java/org/bukkit/scheduler/BukkitScheduler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3961">
+          <caret line="19" column="15" lean-forward="false" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/main/HardcorePlugin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="70" column="5" lean-forward="true" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+          <folding>
+            <element signature="e#2694#2695#0" expanded="true" />
+            <element signature="e#2776#2777#0" expanded="true" />
+            <element signature="e#2839#2840#0" expanded="true" />
+            <element signature="e#2928#2929#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/enchants/EnchantmentGathering.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="56" column="17" lean-forward="false" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/achievements/AchievementManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="172" column="30" lean-forward="false" selection-start-line="172" selection-start-column="30" selection-end-line="172" selection-end-column="30" />
+        <state relative-caret-position="2597">
+          <caret line="185" column="5" lean-forward="true" selection-start-line="185" selection-start-column="5" selection-end-line="185" selection-end-column="5" />
           <folding>
-            <element signature="e#8461#8462#0" expanded="true" />
-            <element signature="e#8491#8492#0" expanded="true" />
+            <element signature="e#8448#8449#0" expanded="true" />
+            <element signature="e#8478#8479#0" expanded="true" />
           </folding>
         </state>
       </provider>
