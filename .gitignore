@@ -1,7 +1,7 @@
 *.class
-.classpath
-.settings
-.idea
-/bin
+*.classpath
+/.settings/*
+/.idea/*
+/bin/*
 *.project
-Donc.iml
+/Donc.iml

@@ -166,6 +166,14 @@ public class AchievementManager {
 				}
 			}
 			if(del) {
+				for(ContainerAchievement a : contAchievements) {
+					if(a.getClass().getSimpleName().equalsIgnoreCase(s)) {
+						del = false;
+						break;
+					}
+				}
+			}
+			if(del) {
 				achInfo.set(p.getName() + "." + s, null);
 			}
 		}

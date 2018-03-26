@@ -7,250 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="058c5f0d-b86d-4ea1-8804-00c5d62a0b79" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementAll.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementArmor.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementBath.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementBed.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementBlaze.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementBlowDragon.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementBoss.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementBotania.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementCake.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementChickens.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementCreeper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementDanch.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementDaniyal.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementDeath.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementDiamondOre.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementDirt.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementDonz.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementEasy.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementEmeraldOre.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementEnchantedChainmail$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementEnchantedChainmail.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementEnchantments.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementEnderPearl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementEnderman.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementEndermite.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementFall.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementFish.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementGold.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementGuardian.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementHard.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementInsane.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementLavaDiamond.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementMagma.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementManager.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementMedium.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementMekita.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementMusic$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementMusic.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementNotDaniyal.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementObsidian.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementOrez.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementOrezTupoi.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementPukSpider.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementShulker.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementSkeleton.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementSoulbind.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementSpider.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementStats.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementSword.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementTNTRevenge$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementTNTRevenge.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementTame.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementUltraSword.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementUselessSlaughterer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementVindicator.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementVlad.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementWither.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/ContainerAchievement.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/CounterAchievement.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/Difficulty$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/Difficulty.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/DoncAchievement.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/InventoryBasedAchievement.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/ProgressiveAchievement.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/bosses/Boss.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/bosses/BossBlaze.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/bosses/BossCreeper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/bosses/BossDrop.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/bosses/BossHelper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/bosses/BossListener$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/bosses/BossListener.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/bosses/BossManager.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/bosses/BossPukSpider.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/bosses/BossSkeleton.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/bosses/BossWither.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/bosses/BossZombie.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/commands/CommandAch.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/commands/CommandBoss.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/commands/CommandCEnchant.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/commands/CommandCoords.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/commands/CommandCustomItem.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/commands/CommandDanchmode.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/commands/CommandDonc.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/commands/CommandEnch.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/commands/CommandMark.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/commands/CommandMessage.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/commands/CommandObserve.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/commands/CommandOpt.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/commands/CommandOption.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/commands/CommandPing.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/commands/CommandPlayer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/commands/CommandPlugin.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/commands/CommandSetAchievement.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/enchants/CustomEnchant.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/enchants/DoncEnchantment.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/enchants/EnchantmentEvasion.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/enchants/EnchantmentFlair.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/enchants/EnchantmentForce.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/enchants/EnchantmentGathering$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/enchants/EnchantmentGathering.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/enchants/EnchantmentGreed.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/enchants/EnchantmentInferno.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/enchants/EnchantmentManager.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/enchants/EnchantmentMoltenCore.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/enchants/EnchantmentMultishot.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/enchants/EnchantmentSoulbind$SavedItem.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/enchants/EnchantmentSoulbind.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/enchants/EnchantmentTimber.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/items/CustomItem.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/items/CustomItemAncientsFlesh.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/items/CustomItemEmpoweredCharge.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/items/CustomItemInfusedString.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/items/CustomItemInnocentFire.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/items/CustomItemMillenniumCoal.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/items/CustomItemStack.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/items/CustomItemStrongBone.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/items/CustomItems.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/items/CustomItemsListener.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/main/Handler$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/main/Handler$2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/main/Handler.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/main/HardcorePlugin.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/util/Case.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/util/Cases$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/util/Cases.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/util/CustomAttribute$AttributeSlot.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/util/CustomAttribute.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/util/DoncPlayer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/util/ExperienceHelper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/util/GuiHandler.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/util/InventoryHelper$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/util/InventoryHelper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/util/Marks$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/util/Marks$MarkAccess.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/util/Marks$MarkResult.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/util/Marks.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/util/MathUtils.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/util/Names.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/util/ParticleEffectPoint.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/util/PlayerJumpEvent$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/util/PlayerJumpEvent$PlayerJumpEventListener.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/util/PlayerJumpEvent.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/util/PlayerOptions$Option.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/util/PlayerOptions.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/util/TaskManager$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/util/TaskManager.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/util/WorldHelper$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/util/WorldHelper$EnumDimension.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/util/WorldHelper$LookDirection.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin/ru/util/WorldHelper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementArmor.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementArmor.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementBath.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementBath.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementBed.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementBed.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementBlaze.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementBlaze.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementBlowDragon.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementBlowDragon.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementBoss.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementBoss.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementBotania.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementBotania.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementCreeper.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementCreeper.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementDeath.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementDeath.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementDirt.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementDirt.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementEnchantedChainmail.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementEnchantedChainmail.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementEnchantments.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementEnchantments.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementEnderPearl.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementEnderPearl.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementEnderman.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementEnderman.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementEndermite.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementEndermite.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementGold.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementGold.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementGuardian.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementGuardian.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementLavaDiamond.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementLavaDiamond.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementMagma.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementMagma.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementMusic.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementMusic.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementOrezTupoi.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementOrezTupoi.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementPukSpider.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementPukSpider.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementShulker.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementShulker.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementSkeleton.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementSkeleton.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementSoulbind.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementSoulbind.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementSpider.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementSpider.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementStats.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementStats.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementTNTRevenge.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementTNTRevenge.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementTame.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementTame.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementUltraSword.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementUltraSword.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementVindicator.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementVindicator.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementVlad.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementVlad.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementWither.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementWither.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/achievements/ContainerAchievement.java" afterPath="$PROJECT_DIR$/src/ru/achievements/ContainerAchievement.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/achievements/DoncAchievement.java" afterPath="$PROJECT_DIR$/src/ru/achievements/DoncAchievement.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/achievements/ProgressiveAchievement.java" afterPath="$PROJECT_DIR$/src/ru/achievements/ProgressiveAchievement.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/bosses/Boss.java" afterPath="$PROJECT_DIR$/src/ru/bosses/Boss.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/bosses/BossBlaze.java" afterPath="$PROJECT_DIR$/src/ru/bosses/BossBlaze.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/bosses/BossCreeper.java" afterPath="$PROJECT_DIR$/src/ru/bosses/BossCreeper.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/bosses/BossDrop.java" afterPath="$PROJECT_DIR$/src/ru/bosses/BossDrop.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/bosses/BossHelper.java" afterPath="$PROJECT_DIR$/src/ru/bosses/BossHelper.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/bosses/BossListener.java" afterPath="$PROJECT_DIR$/src/ru/bosses/BossListener.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/bosses/BossManager.java" afterPath="$PROJECT_DIR$/src/ru/bosses/BossManager.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/bosses/BossPukSpider.java" afterPath="$PROJECT_DIR$/src/ru/bosses/BossPukSpider.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/bosses/BossSkeleton.java" afterPath="$PROJECT_DIR$/src/ru/bosses/BossSkeleton.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/bosses/BossWither.java" afterPath="$PROJECT_DIR$/src/ru/bosses/BossWither.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/bosses/BossZombie.java" afterPath="$PROJECT_DIR$/src/ru/bosses/BossZombie.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/commands/CommandAch.java" afterPath="$PROJECT_DIR$/src/ru/commands/CommandAch.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/commands/CommandBoss.java" afterPath="$PROJECT_DIR$/src/ru/commands/CommandBoss.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/commands/CommandCEnchant.java" afterPath="$PROJECT_DIR$/src/ru/commands/CommandCEnchant.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/commands/CommandCoords.java" afterPath="$PROJECT_DIR$/src/ru/commands/CommandCoords.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/commands/CommandCustomItem.java" afterPath="$PROJECT_DIR$/src/ru/commands/CommandCustomItem.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/commands/CommandDanchmode.java" afterPath="$PROJECT_DIR$/src/ru/commands/CommandDanchmode.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/commands/CommandDonc.java" afterPath="$PROJECT_DIR$/src/ru/commands/CommandDonc.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/commands/CommandEnch.java" afterPath="$PROJECT_DIR$/src/ru/commands/CommandEnch.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/commands/CommandMark.java" afterPath="$PROJECT_DIR$/src/ru/commands/CommandMark.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/commands/CommandMessage.java" afterPath="$PROJECT_DIR$/src/ru/commands/CommandMessage.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/commands/CommandObserve.java" afterPath="$PROJECT_DIR$/src/ru/commands/CommandObserve.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/commands/CommandOpt.java" afterPath="$PROJECT_DIR$/src/ru/commands/CommandOpt.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/commands/CommandOption.java" afterPath="$PROJECT_DIR$/src/ru/commands/CommandOption.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/commands/CommandPing.java" afterPath="$PROJECT_DIR$/src/ru/commands/CommandPing.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/commands/CommandPlayer.java" afterPath="$PROJECT_DIR$/src/ru/commands/CommandPlayer.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/commands/CommandPlugin.java" afterPath="$PROJECT_DIR$/src/ru/commands/CommandPlugin.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/commands/CommandSetAchievement.java" afterPath="$PROJECT_DIR$/src/ru/commands/CommandSetAchievement.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/enchants/DoncEnchantment.java" afterPath="$PROJECT_DIR$/src/ru/enchants/DoncEnchantment.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/enchants/EnchantmentEvasion.java" afterPath="$PROJECT_DIR$/src/ru/enchants/EnchantmentEvasion.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/enchants/EnchantmentFlair.java" afterPath="$PROJECT_DIR$/src/ru/enchants/EnchantmentFlair.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/enchants/EnchantmentGathering.java" afterPath="$PROJECT_DIR$/src/ru/enchants/EnchantmentGathering.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/enchants/EnchantmentGreed.java" afterPath="$PROJECT_DIR$/src/ru/enchants/EnchantmentGreed.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/enchants/EnchantmentInferno.java" afterPath="$PROJECT_DIR$/src/ru/enchants/EnchantmentInferno.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/enchants/EnchantmentManager.java" afterPath="$PROJECT_DIR$/src/ru/enchants/EnchantmentManager.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/enchants/EnchantmentMoltenCore.java" afterPath="$PROJECT_DIR$/src/ru/enchants/EnchantmentMoltenCore.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/enchants/EnchantmentMultishot.java" afterPath="$PROJECT_DIR$/src/ru/enchants/EnchantmentMultishot.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/enchants/EnchantmentSoulbind.java" afterPath="$PROJECT_DIR$/src/ru/enchants/EnchantmentSoulbind.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/enchants/EnchantmentTimber.java" afterPath="$PROJECT_DIR$/src/ru/enchants/EnchantmentTimber.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/items/CustomItem.java" afterPath="$PROJECT_DIR$/src/ru/items/CustomItem.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/items/CustomItemAncientsFlesh.java" afterPath="$PROJECT_DIR$/src/ru/items/CustomItemAncientsFlesh.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/items/CustomItemEmpoweredCharge.java" afterPath="$PROJECT_DIR$/src/ru/items/CustomItemEmpoweredCharge.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/items/CustomItemInfusedString.java" afterPath="$PROJECT_DIR$/src/ru/items/CustomItemInfusedString.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/items/CustomItemMillenniumCoal.java" afterPath="$PROJECT_DIR$/src/ru/items/CustomItemMillenniumCoal.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/items/CustomItems.java" afterPath="$PROJECT_DIR$/src/ru/items/CustomItems.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/main/Handler.java" afterPath="$PROJECT_DIR$/src/ru/main/Handler.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/main/HardcorePlugin.java" afterPath="$PROJECT_DIR$/src/ru/main/HardcorePlugin.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/util/Cases.java" afterPath="$PROJECT_DIR$/src/ru/util/Cases.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/util/DoncPlayer.java" afterPath="$PROJECT_DIR$/src/ru/util/DoncPlayer.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/util/EntityHelper.java" afterPath="$PROJECT_DIR$/src/ru/util/EntityHelper.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/util/GuiHandler.java" afterPath="$PROJECT_DIR$/src/ru/util/GuiHandler.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/util/InventoryHelper.java" afterPath="$PROJECT_DIR$/src/ru/util/InventoryHelper.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/util/Marks.java" afterPath="$PROJECT_DIR$/src/ru/util/Marks.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/util/MathUtils.java" afterPath="$PROJECT_DIR$/src/ru/util/MathUtils.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/util/Names.java" afterPath="$PROJECT_DIR$/src/ru/util/Names.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/util/PlayerJumpEvent.java" afterPath="$PROJECT_DIR$/src/ru/util/PlayerJumpEvent.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/util/PlayerOptions.java" afterPath="$PROJECT_DIR$/src/ru/util/PlayerOptions.java" />
-      <change beforePath="$PROJECT_DIR$/src/ru/util/WorldHelper.java" afterPath="$PROJECT_DIR$/src/ru/util/WorldHelper.java" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementManager.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementManager.java" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -265,22 +24,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BossHelper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/bosses/BossHelper.java">
+      <file leaf-file-name="AchievementManager.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ru/achievements/AchievementManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="42" column="4" lean-forward="false" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BossCreeper.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ru/bosses/BossCreeper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="30" column="40" lean-forward="false" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
-              <folding />
+            <state relative-caret-position="319">
+              <caret line="171" column="30" lean-forward="true" selection-start-line="171" selection-start-column="30" selection-end-line="171" selection-end-column="30" />
+              <folding>
+                <element signature="e#8448#8449#0" expanded="true" />
+                <element signature="e#8478#8479#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -309,7 +61,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/ru/main/HardcorePlugin.java" />
-        <option value="$PROJECT_DIR$/src/ru/achievements/AchievementManager.java" />
         <option value="$PROJECT_DIR$/src/ru/achievements/AchievementTNTRevenge.java" />
         <option value="$PROJECT_DIR$/src/ru/enchants/EnchantmentEvasion.java" />
         <option value="$PROJECT_DIR$/src/ru/enchants/EnchantmentSoulbind.java" />
@@ -334,6 +85,8 @@
         <option value="$PROJECT_DIR$/src/ru/bosses/BossHelper.java" />
         <option value="$PROJECT_DIR$/src/ru/bosses/BossCreeper.java" />
         <option value="$PROJECT_DIR$/src/ru/enchants/EnchantmentGreed.java" />
+        <option value="$PROJECT_DIR$/src/ru/achievements/ContainerAchievement.java" />
+        <option value="$PROJECT_DIR$/src/ru/achievements/AchievementManager.java" />
       </list>
     </option>
   </component>
@@ -378,6 +131,13 @@
               <item name="Donc" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ru" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Donc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Donc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ru" type="462c0819:PsiDirectoryNode" />
+              <item name="achievements" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -535,6 +295,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -549,7 +310,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15416667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15416667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -859,14 +620,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/achievements/ContainerAchievement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../Other/Spigot/Bukkit/src/main/java/org/bukkit/entity/AbstractHorse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -879,14 +632,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/achievements/DoncAchievement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="35" column="37" lean-forward="true" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
           <folding />
         </state>
       </provider>
@@ -973,28 +718,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/achievements/AchievementManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="154" column="25" lean-forward="false" selection-start-line="154" selection-start-column="25" selection-end-line="154" selection-end-column="25" />
-          <folding>
-            <element signature="e#4145#4162#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/items/CustomItemAncientsFlesh.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="37" column="12" lean-forward="false" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/bosses/BossHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="42" column="4" lean-forward="false" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -1012,6 +739,46 @@
         <state relative-caret-position="238">
           <caret line="30" column="40" lean-forward="false" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/bosses/BossHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="57" column="25" lean-forward="true" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
+          <folding>
+            <element signature="e#1301#1302#0" expanded="false" />
+            <element signature="e#1363#1364#0" expanded="false" />
+            <element signature="e#1468#1469#0" expanded="false" />
+            <element signature="e#1536#1537#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/achievements/DoncAchievement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="109" column="44" lean-forward="false" selection-start-line="109" selection-start-column="44" selection-end-line="109" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/achievements/ContainerAchievement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/achievements/AchievementManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="171" column="30" lean-forward="true" selection-start-line="171" selection-start-column="30" selection-end-line="171" selection-end-column="30" />
+          <folding>
+            <element signature="e#8448#8449#0" expanded="true" />
+            <element signature="e#8478#8479#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
