@@ -27,11 +27,11 @@
       <file leaf-file-name="AchievementManager.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ru/achievements/AchievementManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="171" column="30" lean-forward="true" selection-start-line="171" selection-start-column="30" selection-end-line="171" selection-end-column="30" />
+            <state relative-caret-position="336">
+              <caret line="172" column="30" lean-forward="false" selection-start-line="172" selection-start-column="30" selection-end-line="172" selection-end-column="30" />
               <folding>
-                <element signature="e#8448#8449#0" expanded="true" />
-                <element signature="e#8478#8479#0" expanded="true" />
+                <element signature="e#8461#8462#0" expanded="true" />
+                <element signature="e#8491#8492#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -773,11 +773,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/achievements/AchievementManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="171" column="30" lean-forward="true" selection-start-line="171" selection-start-column="30" selection-end-line="171" selection-end-column="30" />
+        <state relative-caret-position="336">
+          <caret line="172" column="30" lean-forward="false" selection-start-line="172" selection-start-column="30" selection-end-line="172" selection-end-column="30" />
           <folding>
-            <element signature="e#8448#8449#0" expanded="true" />
-            <element signature="e#8478#8479#0" expanded="true" />
+            <element signature="e#8461#8462#0" expanded="true" />
+            <element signature="e#8491#8492#0" expanded="true" />
           </folding>
         </state>
       </provider>
