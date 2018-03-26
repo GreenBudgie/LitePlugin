@@ -91,8 +91,8 @@ public class EnchantmentInferno extends DoncEnchantment {
 	public void proceedMagmaDamage(EntityDamageByBlockEvent e) {
 		if(e.getEntity() instanceof Player) {
 			Player p = (Player) e.getEntity();
-			
-			if(EnchantmentManager.hasCustomEnchant(p.getInventory().getBoots(), EnchantmentManager.STEP) && e.getDamager().getType() == Material.MAGMA) {
+			if(p.getInventory().getBoots() != null && EnchantmentManager.hasCustomEnchant(p.getInventory().getBoots(), EnchantmentManager.STEP)
+					&& e.getDamager().getType() == Material.MAGMA) {
 				e.setCancelled(true);
 			}
 		}
