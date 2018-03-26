@@ -1,10 +1,7 @@
 package ru.bosses;
 
-import org.bukkit.ChatColor;
-import org.bukkit.Color;
-import org.bukkit.Location;
-import org.bukkit.Material;
-import org.bukkit.Sound;
+import de.slikey.effectlib.util.ParticleEffect;
+import org.bukkit.*;
 import org.bukkit.entity.CaveSpider;
 import org.bukkit.entity.EntityType;
 import org.bukkit.entity.LivingEntity;
@@ -17,10 +14,8 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
 import org.bukkit.util.Vector;
-
-import de.slikey.effectlib.util.ParticleEffect;
 import ru.items.CustomItems;
-import ru.util.InventoryHelper;
+import ru.util.EntityHelper;
 import ru.util.MathUtils;
 import ru.util.WorldHelper;
 
@@ -57,14 +52,14 @@ public class BossPukSpider extends Boss {
 
 	public void onDamage(Player p, LivingEntity ent, double damage, EntityDamageByEntityEvent e) {
 		if(ent.getHealth() <= 70) {
-			InventoryHelper.addNormalPotionEffect(ent, new PotionEffect(PotionEffectType.SPEED, 200, 1, false, true));
+			EntityHelper.addNormalPotionEffect(ent, new PotionEffect(PotionEffectType.SPEED, 200, 1, false, true));
 			if(MathUtils.chance(15)) {
 				Location loc = p.getLocation();
 				loc.getBlock().setType(Material.WEB);
 			}
 		}
 		if(ent.getHealth() <= 35) {
-			InventoryHelper.addNormalPotionEffect(ent, new PotionEffect(PotionEffectType.REGENERATION, 80, 4, false, true));
+			EntityHelper.addNormalPotionEffect(ent, new PotionEffect(PotionEffectType.REGENERATION, 80, 4, false, true));
 			BossHelper.spawnParticlesAround(ent, ParticleEffect.REDSTONE, Color.RED, 20);
 			for(int i = 0; i < 3; i++) {
 				if(MathUtils.chance(18)) {
@@ -81,7 +76,7 @@ public class BossPukSpider extends Boss {
 	}
 
 	public void onAttack(LivingEntity boss, Player p, double damage, EntityDamageByEntityEvent e) {
-		InventoryHelper.addNormalPotionEffect(p, new PotionEffect(PotionEffectType.POISON, 100, 2));
+		EntityHelper.addNormalPotionEffect(p, new PotionEffect(PotionEffectType.POISON, 100, 2));
 	}
 
 	public String getDescription() {

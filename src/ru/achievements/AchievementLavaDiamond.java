@@ -1,7 +1,5 @@
 package ru.achievements;
 
-import java.util.List;
-
 import org.bukkit.Material;
 import org.bukkit.entity.EntityType;
 import org.bukkit.entity.Item;
@@ -10,8 +8,9 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.entity.EntityCombustEvent;
 import org.bukkit.event.entity.EntityDamageEvent;
 import org.bukkit.event.entity.EntityExplodeEvent;
-
 import ru.util.WorldHelper;
+
+import java.util.List;
 
 public class AchievementLavaDiamond extends DoncAchievement {
 

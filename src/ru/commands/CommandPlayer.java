@@ -1,19 +1,14 @@
 package ru.commands;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.command.TabCompleter;
+import ru.util.*;
 
-import ru.util.Case;
-import ru.util.Cases;
-import ru.util.DoncPlayer;
-import ru.util.MathUtils;
-import ru.util.Names;
+import java.util.ArrayList;
+import java.util.List;
 
 public class CommandPlayer implements CommandExecutor, TabCompleter {
 

@@ -1,15 +1,14 @@
 package ru.achievements;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.entity.EntityDamageEvent.DamageCause;
 import org.bukkit.event.entity.PlayerDeathEvent;
-
 import ru.util.PlayerOptions;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class AchievementDeath extends ProgressiveAchievement {
 

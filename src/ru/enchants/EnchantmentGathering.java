@@ -1,7 +1,5 @@
 package ru.enchants;
 
-import java.util.Collection;
-
 import org.bukkit.Material;
 import org.bukkit.craftbukkit.v1_12_R1.entity.CraftExperienceOrb;
 import org.bukkit.craftbukkit.v1_12_R1.entity.CraftItem;
@@ -13,10 +11,11 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.block.BlockBreakEvent;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.util.Vector;
-
 import ru.main.HardcorePlugin;
 import ru.util.InventoryHelper;
 import ru.util.MathUtils;
+
+import java.util.Collection;
 
 public class EnchantmentGathering extends DoncEnchantment {
 

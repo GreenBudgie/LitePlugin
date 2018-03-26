@@ -1,5 +1,8 @@
 package ru.enchants;
 
+import de.slikey.effectlib.effect.FlameEffect;
+import net.minecraft.server.v1_12_R1.EntityExperienceOrb;
+import net.minecraft.server.v1_12_R1.RecipesFurnace;
 import org.bukkit.DyeColor;
 import org.bukkit.Location;
 import org.bukkit.Material;
@@ -15,11 +18,6 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.block.BlockBreakEvent;
 import org.bukkit.event.entity.EntityDamageByEntityEvent;
 import org.bukkit.inventory.ItemStack;
-
-import de.slikey.effectlib.effect.FlameEffect;
-import net.minecraft.server.v1_12_R1.EntityExperienceOrb;
-import net.minecraft.server.v1_12_R1.MinecraftServer;
-import net.minecraft.server.v1_12_R1.RecipesFurnace;
 import ru.main.HardcorePlugin;
 import ru.util.MathUtils;
 import ru.util.PlayerOptions;

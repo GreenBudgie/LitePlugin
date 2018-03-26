@@ -1,17 +1,15 @@
 package ru.achievements;
 
-import java.util.ArrayList;
-import java.util.List;
-
+import com.google.common.collect.Lists;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.entity.EntityPickupItemEvent;
 import org.bukkit.inventory.ItemStack;
-
-import com.google.common.collect.Lists;
-
 import ru.util.PlayerOptions;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class AchievementBotania extends ProgressiveAchievement {
 

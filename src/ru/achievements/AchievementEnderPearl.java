@@ -4,7 +4,6 @@ import org.bukkit.Material;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.player.PlayerTeleportEvent;
 import org.bukkit.event.player.PlayerTeleportEvent.TeleportCause;
-
 import ru.util.WorldHelper;
 
 public class AchievementEnderPearl extends DoncAchievement {

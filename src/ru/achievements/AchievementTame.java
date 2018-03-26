@@ -1,14 +1,14 @@
 package ru.achievements;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import org.bukkit.Material;
 import org.bukkit.entity.EntityType;
 import org.bukkit.entity.Player;
 import org.bukkit.entity.Tameable;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.entity.EntityTameEvent;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class AchievementTame extends ProgressiveAchievement {
 

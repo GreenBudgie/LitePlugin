@@ -1,19 +1,12 @@
 package ru.util;
 
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.List;
-import java.util.Map;
-import java.util.Objects;
-import java.util.Random;
-import java.util.Set;
-import java.util.stream.Collectors;
-
-import org.bukkit.Location;
-
 import com.google.common.base.Functions;
 import com.google.common.collect.Iterables;
 import com.google.common.collect.Lists;
+import org.bukkit.Location;
+
+import java.util.*;
+import java.util.stream.Collectors;
 
 public final class MathUtils {
 	

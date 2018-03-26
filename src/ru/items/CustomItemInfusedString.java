@@ -1,5 +1,6 @@
 package ru.items;
 
+import de.slikey.effectlib.util.ParticleEffect;
 import org.bukkit.ChatColor;
 import org.bukkit.Color;
 import org.bukkit.Material;
@@ -13,9 +14,7 @@ import org.bukkit.event.entity.EntityDamageByEntityEvent;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
-
-import de.slikey.effectlib.util.ParticleEffect;
-import ru.util.InventoryHelper;
+import ru.util.EntityHelper;
 import ru.util.WorldHelper;
 
 public class CustomItemInfusedString extends CustomItem implements Listener {
@@ -38,7 +37,7 @@ public class CustomItemInfusedString extends CustomItem implements Listener {
 			LivingEntity ent = (LivingEntity) e.getEntity();
 			Player p = (Player) e.getDamager();
 			if(this.isEquals(p.getInventory().getItemInMainHand())) {
-				InventoryHelper.addNormalPotionEffect(ent, new PotionEffect(PotionEffectType.SLOW, 60, 0));
+				EntityHelper.addNormalPotionEffect(ent, new PotionEffect(PotionEffectType.SLOW, 60, 0));
 				WorldHelper.spawnParticlesAround(ent, ParticleEffect.REDSTONE, Color.GRAY, 30);
 			}
 		}

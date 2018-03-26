@@ -7,7 +7,250 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="058c5f0d-b86d-4ea1-8804-00c5d62a0b79" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/ru/util/EntityHelper.java" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementAll.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementArmor.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementBath.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementBed.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementBlaze.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementBlowDragon.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementBoss.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementBotania.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementCake.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementChickens.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementCreeper.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementDanch.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementDaniyal.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementDeath.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementDiamondOre.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementDirt.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementDonz.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementEasy.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementEmeraldOre.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementEnchantedChainmail$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementEnchantedChainmail.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementEnchantments.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementEnderPearl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementEnderman.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementEndermite.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementFall.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementFish.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementGold.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementGuardian.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementHard.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementInsane.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementLavaDiamond.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementMagma.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementManager.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementMedium.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementMekita.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementMusic$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementMusic.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementNotDaniyal.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementObsidian.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementOrez.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementOrezTupoi.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementPukSpider.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementShulker.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementSkeleton.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementSoulbind.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementSpider.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementStats.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementSword.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementTNTRevenge$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementTNTRevenge.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementTame.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementUltraSword.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementUselessSlaughterer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementVindicator.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementVlad.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/AchievementWither.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/ContainerAchievement.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/CounterAchievement.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/Difficulty$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/Difficulty.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/DoncAchievement.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/InventoryBasedAchievement.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/achievements/ProgressiveAchievement.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/bosses/Boss.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/bosses/BossBlaze.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/bosses/BossCreeper.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/bosses/BossDrop.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/bosses/BossHelper.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/bosses/BossListener$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/bosses/BossListener.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/bosses/BossManager.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/bosses/BossPukSpider.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/bosses/BossSkeleton.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/bosses/BossWither.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/bosses/BossZombie.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/commands/CommandAch.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/commands/CommandBoss.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/commands/CommandCEnchant.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/commands/CommandCoords.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/commands/CommandCustomItem.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/commands/CommandDanchmode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/commands/CommandDonc.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/commands/CommandEnch.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/commands/CommandMark.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/commands/CommandMessage.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/commands/CommandObserve.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/commands/CommandOpt.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/commands/CommandOption.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/commands/CommandPing.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/commands/CommandPlayer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/commands/CommandPlugin.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/commands/CommandSetAchievement.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/enchants/CustomEnchant.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/enchants/DoncEnchantment.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/enchants/EnchantmentEvasion.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/enchants/EnchantmentFlair.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/enchants/EnchantmentForce.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/enchants/EnchantmentGathering$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/enchants/EnchantmentGathering.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/enchants/EnchantmentGreed.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/enchants/EnchantmentInferno.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/enchants/EnchantmentManager.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/enchants/EnchantmentMoltenCore.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/enchants/EnchantmentMultishot.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/enchants/EnchantmentSoulbind$SavedItem.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/enchants/EnchantmentSoulbind.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/enchants/EnchantmentTimber.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/items/CustomItem.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/items/CustomItemAncientsFlesh.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/items/CustomItemEmpoweredCharge.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/items/CustomItemInfusedString.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/items/CustomItemInnocentFire.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/items/CustomItemMillenniumCoal.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/items/CustomItemStack.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/items/CustomItemStrongBone.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/items/CustomItems.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/items/CustomItemsListener.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/main/Handler$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/main/Handler$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/main/Handler.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/main/HardcorePlugin.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/util/Case.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/util/Cases$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/util/Cases.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/util/CustomAttribute$AttributeSlot.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/util/CustomAttribute.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/util/DoncPlayer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/util/ExperienceHelper.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/util/GuiHandler.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/util/InventoryHelper$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/util/InventoryHelper.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/util/Marks$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/util/Marks$MarkAccess.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/util/Marks$MarkResult.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/util/Marks.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/util/MathUtils.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/util/Names.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/util/ParticleEffectPoint.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/util/PlayerJumpEvent$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/util/PlayerJumpEvent$PlayerJumpEventListener.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/util/PlayerJumpEvent.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/util/PlayerOptions$Option.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/util/PlayerOptions.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/util/TaskManager$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/util/TaskManager.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/util/WorldHelper$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/util/WorldHelper$EnumDimension.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/util/WorldHelper$LookDirection.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/ru/util/WorldHelper.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementArmor.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementArmor.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementBath.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementBath.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementBed.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementBed.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementBlaze.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementBlaze.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementBlowDragon.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementBlowDragon.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementBoss.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementBoss.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementBotania.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementBotania.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementCreeper.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementCreeper.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementDeath.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementDeath.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementDirt.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementDirt.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementEnchantedChainmail.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementEnchantedChainmail.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementEnchantments.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementEnchantments.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementEnderPearl.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementEnderPearl.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementEnderman.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementEnderman.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementEndermite.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementEndermite.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementGold.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementGold.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementGuardian.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementGuardian.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementLavaDiamond.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementLavaDiamond.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementMagma.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementMagma.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementMusic.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementMusic.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementOrezTupoi.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementOrezTupoi.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementPukSpider.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementPukSpider.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementShulker.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementShulker.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementSkeleton.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementSkeleton.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementSoulbind.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementSoulbind.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementSpider.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementSpider.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementStats.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementStats.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementTNTRevenge.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementTNTRevenge.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementTame.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementTame.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementUltraSword.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementUltraSword.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementVindicator.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementVindicator.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementVlad.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementVlad.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/achievements/AchievementWither.java" afterPath="$PROJECT_DIR$/src/ru/achievements/AchievementWither.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/achievements/ContainerAchievement.java" afterPath="$PROJECT_DIR$/src/ru/achievements/ContainerAchievement.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/achievements/DoncAchievement.java" afterPath="$PROJECT_DIR$/src/ru/achievements/DoncAchievement.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/achievements/ProgressiveAchievement.java" afterPath="$PROJECT_DIR$/src/ru/achievements/ProgressiveAchievement.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/bosses/Boss.java" afterPath="$PROJECT_DIR$/src/ru/bosses/Boss.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/bosses/BossBlaze.java" afterPath="$PROJECT_DIR$/src/ru/bosses/BossBlaze.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/bosses/BossCreeper.java" afterPath="$PROJECT_DIR$/src/ru/bosses/BossCreeper.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/bosses/BossDrop.java" afterPath="$PROJECT_DIR$/src/ru/bosses/BossDrop.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/bosses/BossHelper.java" afterPath="$PROJECT_DIR$/src/ru/bosses/BossHelper.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/bosses/BossListener.java" afterPath="$PROJECT_DIR$/src/ru/bosses/BossListener.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/bosses/BossManager.java" afterPath="$PROJECT_DIR$/src/ru/bosses/BossManager.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/bosses/BossPukSpider.java" afterPath="$PROJECT_DIR$/src/ru/bosses/BossPukSpider.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/bosses/BossSkeleton.java" afterPath="$PROJECT_DIR$/src/ru/bosses/BossSkeleton.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/bosses/BossWither.java" afterPath="$PROJECT_DIR$/src/ru/bosses/BossWither.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/bosses/BossZombie.java" afterPath="$PROJECT_DIR$/src/ru/bosses/BossZombie.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/commands/CommandAch.java" afterPath="$PROJECT_DIR$/src/ru/commands/CommandAch.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/commands/CommandBoss.java" afterPath="$PROJECT_DIR$/src/ru/commands/CommandBoss.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/commands/CommandCEnchant.java" afterPath="$PROJECT_DIR$/src/ru/commands/CommandCEnchant.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/commands/CommandCoords.java" afterPath="$PROJECT_DIR$/src/ru/commands/CommandCoords.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/commands/CommandCustomItem.java" afterPath="$PROJECT_DIR$/src/ru/commands/CommandCustomItem.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/commands/CommandDanchmode.java" afterPath="$PROJECT_DIR$/src/ru/commands/CommandDanchmode.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/commands/CommandDonc.java" afterPath="$PROJECT_DIR$/src/ru/commands/CommandDonc.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/commands/CommandEnch.java" afterPath="$PROJECT_DIR$/src/ru/commands/CommandEnch.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/commands/CommandMark.java" afterPath="$PROJECT_DIR$/src/ru/commands/CommandMark.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/commands/CommandMessage.java" afterPath="$PROJECT_DIR$/src/ru/commands/CommandMessage.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/commands/CommandObserve.java" afterPath="$PROJECT_DIR$/src/ru/commands/CommandObserve.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/commands/CommandOpt.java" afterPath="$PROJECT_DIR$/src/ru/commands/CommandOpt.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/commands/CommandOption.java" afterPath="$PROJECT_DIR$/src/ru/commands/CommandOption.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/commands/CommandPing.java" afterPath="$PROJECT_DIR$/src/ru/commands/CommandPing.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/commands/CommandPlayer.java" afterPath="$PROJECT_DIR$/src/ru/commands/CommandPlayer.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/commands/CommandPlugin.java" afterPath="$PROJECT_DIR$/src/ru/commands/CommandPlugin.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/commands/CommandSetAchievement.java" afterPath="$PROJECT_DIR$/src/ru/commands/CommandSetAchievement.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/enchants/DoncEnchantment.java" afterPath="$PROJECT_DIR$/src/ru/enchants/DoncEnchantment.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/enchants/EnchantmentEvasion.java" afterPath="$PROJECT_DIR$/src/ru/enchants/EnchantmentEvasion.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/enchants/EnchantmentFlair.java" afterPath="$PROJECT_DIR$/src/ru/enchants/EnchantmentFlair.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/enchants/EnchantmentGathering.java" afterPath="$PROJECT_DIR$/src/ru/enchants/EnchantmentGathering.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/enchants/EnchantmentGreed.java" afterPath="$PROJECT_DIR$/src/ru/enchants/EnchantmentGreed.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/enchants/EnchantmentInferno.java" afterPath="$PROJECT_DIR$/src/ru/enchants/EnchantmentInferno.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/enchants/EnchantmentManager.java" afterPath="$PROJECT_DIR$/src/ru/enchants/EnchantmentManager.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/enchants/EnchantmentMoltenCore.java" afterPath="$PROJECT_DIR$/src/ru/enchants/EnchantmentMoltenCore.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/enchants/EnchantmentMultishot.java" afterPath="$PROJECT_DIR$/src/ru/enchants/EnchantmentMultishot.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/enchants/EnchantmentSoulbind.java" afterPath="$PROJECT_DIR$/src/ru/enchants/EnchantmentSoulbind.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/enchants/EnchantmentTimber.java" afterPath="$PROJECT_DIR$/src/ru/enchants/EnchantmentTimber.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/items/CustomItem.java" afterPath="$PROJECT_DIR$/src/ru/items/CustomItem.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/items/CustomItemAncientsFlesh.java" afterPath="$PROJECT_DIR$/src/ru/items/CustomItemAncientsFlesh.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/items/CustomItemEmpoweredCharge.java" afterPath="$PROJECT_DIR$/src/ru/items/CustomItemEmpoweredCharge.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/items/CustomItemInfusedString.java" afterPath="$PROJECT_DIR$/src/ru/items/CustomItemInfusedString.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/items/CustomItemMillenniumCoal.java" afterPath="$PROJECT_DIR$/src/ru/items/CustomItemMillenniumCoal.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/items/CustomItems.java" afterPath="$PROJECT_DIR$/src/ru/items/CustomItems.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/main/Handler.java" afterPath="$PROJECT_DIR$/src/ru/main/Handler.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/main/HardcorePlugin.java" afterPath="$PROJECT_DIR$/src/ru/main/HardcorePlugin.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/util/Cases.java" afterPath="$PROJECT_DIR$/src/ru/util/Cases.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/util/DoncPlayer.java" afterPath="$PROJECT_DIR$/src/ru/util/DoncPlayer.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/util/EntityHelper.java" afterPath="$PROJECT_DIR$/src/ru/util/EntityHelper.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/util/GuiHandler.java" afterPath="$PROJECT_DIR$/src/ru/util/GuiHandler.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/util/InventoryHelper.java" afterPath="$PROJECT_DIR$/src/ru/util/InventoryHelper.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/util/Marks.java" afterPath="$PROJECT_DIR$/src/ru/util/Marks.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/util/MathUtils.java" afterPath="$PROJECT_DIR$/src/ru/util/MathUtils.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/util/Names.java" afterPath="$PROJECT_DIR$/src/ru/util/Names.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/util/PlayerJumpEvent.java" afterPath="$PROJECT_DIR$/src/ru/util/PlayerJumpEvent.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/util/PlayerOptions.java" afterPath="$PROJECT_DIR$/src/ru/util/PlayerOptions.java" />
+      <change beforePath="$PROJECT_DIR$/src/ru/util/WorldHelper.java" afterPath="$PROJECT_DIR$/src/ru/util/WorldHelper.java" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,79 +260,27 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AchievementManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/achievements/AchievementManager.java">
+      <file leaf-file-name="BossHelper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/bosses/BossHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-442">
-              <caret line="22" column="51" lean-forward="false" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
+            <state relative-caret-position="311">
+              <caret line="42" column="4" lean-forward="false" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GuiHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/util/GuiHandler.java">
+      <file leaf-file-name="BossCreeper.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ru/bosses/BossCreeper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="46" column="13" lean-forward="false" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+            <state relative-caret-position="238">
+              <caret line="30" column="40" lean-forward="false" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommandAch.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/commands/CommandAch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="40" column="35" lean-forward="false" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AchievementUselessSlaughterer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/achievements/AchievementUselessSlaughterer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
-              <folding>
-                <element signature="e#637#645#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExperienceHelper.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ru/util/ExperienceHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EnchantmentGathering.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/enchants/EnchantmentGathering.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1">
-              <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EnchantmentMoltenCore.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/enchants/EnchantmentMoltenCore.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="134" column="16" lean-forward="false" selection-start-line="134" selection-start-column="16" selection-end-line="134" selection-end-column="16" />
-              <folding>
-                <element signature="e#6633#6634#0" expanded="true" />
-                <element signature="e#6725#6726#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -99,7 +290,12 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>invoke</find>
+      <find>addNormal</find>
+      <find>InventoryHelper.addNormalPotionEffect</find>
     </findStrings>
+    <replaceStrings>
+      <replace>EntityHelper.addNormalPotionEffect</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -128,11 +324,20 @@
         <option value="$PROJECT_DIR$/src/ru/achievements/AchievementTame.java" />
         <option value="$PROJECT_DIR$/src/ru/util/MathUtils.java" />
         <option value="$PROJECT_DIR$/src/ru/achievements/AchievementUselessSlaughterer.java" />
+        <option value="$PROJECT_DIR$/src/ru/achievements/DoncAchievement.java" />
+        <option value="$PROJECT_DIR$/src/ru/util/InventoryHelper.java" />
         <option value="$PROJECT_DIR$/src/ru/util/EntityHelper.java" />
+        <option value="$PROJECT_DIR$/src/ru/items/CustomItemInfusedString.java" />
+        <option value="$PROJECT_DIR$/src/ru/bosses/BossZombie.java" />
+        <option value="$PROJECT_DIR$/src/ru/items/CustomItemAncientsFlesh.java" />
+        <option value="$PROJECT_DIR$/src/ru/bosses/BossPukSpider.java" />
+        <option value="$PROJECT_DIR$/src/ru/bosses/BossHelper.java" />
+        <option value="$PROJECT_DIR$/src/ru/bosses/BossCreeper.java" />
+        <option value="$PROJECT_DIR$/src/ru/enchants/EnchantmentGreed.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
@@ -173,34 +378,6 @@
               <item name="Donc" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ru" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Donc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Donc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ru" type="462c0819:PsiDirectoryNode" />
-              <item name="achievements" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Donc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Donc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ru" type="462c0819:PsiDirectoryNode" />
-              <item name="commands" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Donc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Donc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ru" type="462c0819:PsiDirectoryNode" />
-              <item name="enchants" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Donc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Donc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ru" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -357,7 +534,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -367,12 +544,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.00949367" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.00949367" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10021097" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15416667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -384,7 +562,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -405,165 +582,17 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../../ServerHardcore/spigot-1.12.2.jar!/org/bukkit/attribute/Attribute.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../Other/Spigot/Bukkit/src/main/java/org/bukkit/attribute/Attribute.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/bosses/BossDrop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="18" column="37" lean-forward="false" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-          <folding>
-            <element signature="e#417#418#0" expanded="false" />
-            <element signature="e#487#488#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/bosses/BossWither.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="41" column="73" lean-forward="true" selection-start-line="41" selection-start-column="73" selection-end-line="41" selection-end-column="73" />
-          <folding>
-            <element signature="e#2741#2742#0" expanded="false" />
-            <element signature="e#2819#2820#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/Runnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="685">
-          <caret line="67" column="25" lean-forward="false" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../Other/Spigot/Bukkit/src/main/java/org/bukkit/scheduler/BukkitScheduler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="19" column="15" lean-forward="false" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/main/HardcorePlugin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="27" column="60" lean-forward="true" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../Other/Spigot/Bukkit/src/main/java/org/bukkit/entity/TNTPrimed.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/enchants/EnchantmentEvasion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="86" column="37" lean-forward="true" selection-start-line="86" selection-start-column="37" selection-end-line="86" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/achievements/AchievementTNTRevenge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/enchants/EnchantmentTimber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/enchants/EnchantmentSoulbind.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="94" column="37" lean-forward="false" selection-start-line="94" selection-start-column="37" selection-end-line="94" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/bosses/BossBlaze.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/bosses/BossHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../ServerHardcore/spigot-1.12.2.jar!/org/bukkit/event/entity/EntityDeathEvent.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="40" column="27" lean-forward="false" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
-          <folding>
-            <marker date="1516583214966" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1516583214966" expanded="false" signature="147:277" ph="..." />
-            <marker date="1516583214966" expanded="false" signature="536:547" ph=" { " />
-            <marker date="1516583214966" expanded="false" signature="570:576" ph=" }" />
-            <marker date="1516583214966" expanded="true" signature="664:781" ph="{...}" />
-            <marker date="1516583214966" expanded="false" signature="818:829" ph=" { " />
-            <marker date="1516583214966" expanded="false" signature="862:868" ph=" }" />
-            <marker date="1516583214966" expanded="false" signature="900:911" ph=" { " />
-            <marker date="1516583214966" expanded="false" signature="931:937" ph=" }" />
-            <marker date="1516583214966" expanded="false" signature="977:988" ph=" { " />
-            <marker date="1516583214966" expanded="false" signature="1007:1013" ph=" }" />
-            <marker date="1516583214966" expanded="true" signature="1052:1063" ph=" { " />
-            <marker date="1516583214966" expanded="true" signature="1081:1087" ph=" }" />
-            <marker date="1516583214966" expanded="false" signature="1125:1136" ph=" { " />
-            <marker date="1516583214966" expanded="false" signature="1152:1158" ph=" }" />
-            <marker date="1516583214966" expanded="false" signature="1206:1217" ph=" { " />
-            <marker date="1516583214966" expanded="false" signature="1233:1239" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../Other/Spigot/Bukkit/src/main/java/org/bukkit/event/entity/EntityDeathEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/bosses/Boss.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="26" column="26" lean-forward="true" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
           <folding>
-            <element signature="e#938#948#0" expanded="false" />
-            <element signature="e#1068#1082#0" expanded="false" />
-            <element signature="e#1142#1161#0" expanded="false" />
-            <element signature="e#1395#1396#0" expanded="false" />
-            <element signature="e#1427#1428#0" expanded="false" />
-            <element signature="e#2156#2167#0" expanded="false" />
+            <element signature="e#700#710#0" expanded="false" />
+            <element signature="e#830#844#0" expanded="false" />
+            <element signature="e#904#923#0" expanded="false" />
+            <element signature="e#1157#1158#0" expanded="false" />
+            <element signature="e#1189#1190#0" expanded="false" />
+            <element signature="e#1918#1929#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -584,14 +613,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/util/InventoryHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="665" column="26" lean-forward="false" selection-start-line="665" selection-start-column="26" selection-end-line="665" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/enchants/EnchantmentForce.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="421">
@@ -605,8 +626,8 @@
         <state relative-caret-position="-341">
           <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <element signature="e#4067#4075#0" expanded="false" />
-            <element signature="e#4151#4159#0" expanded="false" />
+            <element signature="e#3934#3942#0" expanded="false" />
+            <element signature="e#4018#4026#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -662,17 +683,9 @@
         <state relative-caret-position="152">
           <caret line="134" column="16" lean-forward="false" selection-start-line="134" selection-start-column="16" selection-end-line="134" selection-end-column="16" />
           <folding>
-            <element signature="e#6633#6634#0" expanded="true" />
-            <element signature="e#6725#6726#0" expanded="true" />
+            <element signature="e#6578#6579#0" expanded="false" />
+            <element signature="e#6670#6671#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/achievements/AchievementManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-442">
-          <caret line="22" column="51" lean-forward="false" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -833,23 +846,171 @@
         <state relative-caret-position="629">
           <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
           <folding>
-            <element signature="e#637#645#0" expanded="true" />
+            <element signature="e#637#645#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/util/ExperienceHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="391">
+          <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/achievements/ContainerAchievement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Other/Spigot/Bukkit/src/main/java/org/bukkit/entity/AbstractHorse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Other/Spigot/Bukkit/src/main/java/org/bukkit/entity/Horse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/achievements/DoncAchievement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="35" column="37" lean-forward="true" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/achievements/AchievementDonz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="359" column="12" lean-forward="false" selection-start-line="359" selection-start-column="12" selection-end-line="359" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="306" column="12" lean-forward="false" selection-start-line="306" selection-start-column="12" selection-end-line="306" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/util/InventoryHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="529" column="5" lean-forward="false" selection-start-line="529" selection-start-column="5" selection-end-line="529" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/util/EntityHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="145" column="32" lean-forward="false" selection-start-line="145" selection-start-column="32" selection-end-line="145" selection-end-column="32" />
+        <state relative-caret-position="289">
+          <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/items/CustomItemInfusedString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/bosses/BossZombie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-98">
+          <caret line="17" column="28" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/bosses/BossDrop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/bosses/BossWither.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/bosses/BossPukSpider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="28" column="60" lean-forward="false" selection-start-line="28" selection-start-column="60" selection-end-line="28" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/achievements/AchievementManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="154" column="25" lean-forward="false" selection-start-line="154" selection-start-column="25" selection-end-line="154" selection-end-column="25" />
+          <folding>
+            <element signature="e#4145#4162#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/items/CustomItemAncientsFlesh.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="37" column="12" lean-forward="false" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/bosses/BossHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="42" column="4" lean-forward="false" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/enchants/EnchantmentGreed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="102" column="24" lean-forward="false" selection-start-line="102" selection-start-column="24" selection-end-line="102" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/bosses/BossCreeper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="30" column="40" lean-forward="false" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
           <folding />
         </state>
       </provider>

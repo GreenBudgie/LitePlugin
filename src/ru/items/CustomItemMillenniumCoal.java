@@ -1,5 +1,6 @@
 package ru.items;
 
+import de.slikey.effectlib.util.ParticleEffect;
 import org.bukkit.ChatColor;
 import org.bukkit.Color;
 import org.bukkit.Material;
@@ -7,8 +8,6 @@ import org.bukkit.Sound;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.inventory.FurnaceBurnEvent;
-
-import de.slikey.effectlib.util.ParticleEffect;
 import ru.util.WorldHelper;
 
 public class CustomItemMillenniumCoal extends CustomItem implements Listener {

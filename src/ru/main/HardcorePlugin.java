@@ -1,45 +1,23 @@
 package ru.main;
 
-import java.io.File;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-
+import de.slikey.effectlib.EffectManager;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Location;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
-
-import de.slikey.effectlib.EffectManager;
 import ru.achievements.AchievementManager;
 import ru.bosses.BossManager;
-import ru.commands.CommandAch;
-import ru.commands.CommandBoss;
-import ru.commands.CommandCEnchant;
-import ru.commands.CommandCoords;
-import ru.commands.CommandCustomItem;
-import ru.commands.CommandDanchmode;
-import ru.commands.CommandDonc;
-import ru.commands.CommandEnch;
-import ru.commands.CommandMark;
-import ru.commands.CommandMessage;
-import ru.commands.CommandObserve;
-import ru.commands.CommandOpt;
-import ru.commands.CommandOption;
-import ru.commands.CommandPing;
-import ru.commands.CommandPlayer;
-import ru.commands.CommandPlugin;
-import ru.commands.CommandSetAchievement;
+import ru.commands.*;
 import ru.items.CustomItems;
 import ru.items.CustomItemsListener;
-import ru.util.GuiHandler;
-import ru.util.Marks;
-import ru.util.Names;
-import ru.util.PlayerJumpEvent;
-import ru.util.PlayerOptions;
-import ru.util.TaskManager;
+import ru.util.*;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class HardcorePlugin extends JavaPlugin {
 

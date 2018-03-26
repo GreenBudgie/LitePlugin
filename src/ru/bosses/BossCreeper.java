@@ -1,5 +1,6 @@
 package ru.bosses;
 
+import de.slikey.effectlib.util.ParticleEffect;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.attribute.Attribute;
@@ -13,10 +14,8 @@ import org.bukkit.event.entity.ExplosionPrimeEvent;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
-
-import de.slikey.effectlib.util.ParticleEffect;
 import ru.items.CustomItems;
-import ru.util.InventoryHelper;
+import ru.util.EntityHelper;
 import ru.util.MathUtils;
 
 public class BossCreeper extends Boss implements Listener {
@@ -35,9 +34,9 @@ public class BossCreeper extends Boss implements Listener {
 
 	public void onDamage(Player p, LivingEntity boss, double damage, EntityDamageByEntityEvent e) {
 		if(boss.getHealth() <= 35 && MathUtils.chance(30)) {
-			InventoryHelper.addNormalPotionEffect(p, new PotionEffect(PotionEffectType.SLOW, MathUtils.randomRange(80, 140), MathUtils.randomRange(0, 1)));
+			EntityHelper.addNormalPotionEffect(p, new PotionEffect(PotionEffectType.SLOW, MathUtils.randomRange(80, 140), MathUtils.randomRange(0, 1)));
 			if(MathUtils.chance(50)) {
-				InventoryHelper.addNormalPotionEffect(p, new PotionEffect(PotionEffectType.BLINDNESS, MathUtils.randomRange(80, 140), 0));
+				EntityHelper.addNormalPotionEffect(p, new PotionEffect(PotionEffectType.BLINDNESS, MathUtils.randomRange(80, 140), 0));
 			}
 			BossHelper.spawnParticlesAround(boss, ParticleEffect.FLAME, 50);
 		}

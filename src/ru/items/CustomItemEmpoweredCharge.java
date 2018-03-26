@@ -1,5 +1,6 @@
 package ru.items;
 
+import de.slikey.effectlib.util.ParticleEffect;
 import org.bukkit.ChatColor;
 import org.bukkit.Color;
 import org.bukkit.Material;
@@ -11,8 +12,6 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.entity.EntityDamageByEntityEvent;
 import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.inventory.ItemStack;
-
-import de.slikey.effectlib.util.ParticleEffect;
 import ru.util.WorldHelper;
 
 public class CustomItemEmpoweredCharge extends CustomItem implements Listener {

@@ -1,13 +1,12 @@
 package ru.commands;
 
+import net.md_5.bungee.api.ChatColor;
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.craftbukkit.v1_12_R1.entity.CraftPlayer;
 import org.bukkit.entity.Player;
-
-import net.md_5.bungee.api.ChatColor;
 import ru.util.Case;
 import ru.util.Names;
 

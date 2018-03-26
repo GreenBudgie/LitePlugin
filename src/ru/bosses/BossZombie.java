@@ -13,9 +13,8 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
 import org.bukkit.util.Vector;
-
 import ru.items.CustomItems;
-import ru.util.InventoryHelper;
+import ru.util.EntityHelper;
 import ru.util.MathUtils;
 
 public class BossZombie extends Boss {
@@ -54,15 +53,15 @@ public class BossZombie extends Boss {
 			ent.setVelocity(new Vector(MathUtils.randomRangeDouble(-0.2, 0.2), MathUtils.randomRangeDouble(0, 0.2), MathUtils.randomRangeDouble(-0.2, 0.2)));
 			ent.setTarget(p);
 			ent.setBaby(true);
-			InventoryHelper.addNormalPotionEffect(ent, new PotionEffect(PotionEffectType.SPEED, Integer.MAX_VALUE, 0));
+			EntityHelper.addNormalPotionEffect(ent, new PotionEffect(PotionEffectType.SPEED, Integer.MAX_VALUE, 0));
 		}
 	}
 
 	public void onAttack(LivingEntity boss, Player p, double damage, EntityDamageByEntityEvent e) {
-		InventoryHelper.addNormalPotionEffect(p, new PotionEffect((PotionEffectType) MathUtils.choose(PotionEffectType.BLINDNESS, PotionEffectType.CONFUSION),
-				MathUtils.randomRange(160, 220), 0));
+		EntityHelper.addNormalPotionEffect(p,
+				new PotionEffect((PotionEffectType) MathUtils.choose(PotionEffectType.BLINDNESS, PotionEffectType.CONFUSION), MathUtils.randomRange(160, 220), 0));
 	}
-	
+
 	public String getDescription() {
 		return "Очень быстрый и прыткий зомби. Может спавнить себе в подмогу маленьких зомби с опасными мечами в руке. При атаке может вызвать тошноту и слепоту.";
 	}

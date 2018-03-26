@@ -14,7 +14,6 @@ import org.bukkit.event.player.PlayerItemDamageEvent;
 import org.bukkit.event.player.PlayerMoveEvent;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.util.Vector;
-
 import ru.util.MathUtils;
 
 public class EnchantmentInferno extends DoncEnchantment {

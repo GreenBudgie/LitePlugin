@@ -4,7 +4,6 @@ import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.PlayerInventory;
-
 import ru.enchants.EnchantmentManager;
 
 public class AchievementSoulbind extends InventoryBasedAchievement {

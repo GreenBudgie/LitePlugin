@@ -1,7 +1,5 @@
 package ru.enchants;
 
-import java.util.List;
-
 import org.bukkit.Material;
 import org.bukkit.block.Block;
 import org.bukkit.craftbukkit.v1_12_R1.CraftWorld;
@@ -11,10 +9,11 @@ import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.block.BlockBreakEvent;
 import org.bukkit.inventory.ItemStack;
-
 import ru.util.InventoryHelper;
 import ru.util.MathUtils;
 import ru.util.WorldHelper;
+
+import java.util.List;
 
 public class EnchantmentTimber extends DoncEnchantment {
 

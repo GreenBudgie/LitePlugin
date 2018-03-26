@@ -9,7 +9,6 @@ import org.bukkit.entity.Projectile;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.entity.ProjectileLaunchEvent;
 import org.bukkit.inventory.ItemStack;
-
 import ru.util.InventoryHelper;
 import ru.util.MathUtils;
 

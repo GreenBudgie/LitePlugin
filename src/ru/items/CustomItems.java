@@ -1,16 +1,14 @@
 package ru.items;
 
-import java.util.ArrayList;
-import java.util.List;
-
+import com.google.common.collect.Lists;
+import net.md_5.bungee.api.ChatColor;
 import org.bukkit.Bukkit;
 import org.bukkit.event.Listener;
 import org.bukkit.inventory.ItemStack;
-
-import com.google.common.collect.Lists;
-
-import net.md_5.bungee.api.ChatColor;
 import ru.main.HardcorePlugin;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class CustomItems {
 

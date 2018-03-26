@@ -1,15 +1,14 @@
 package ru.achievements;
 
-import java.util.List;
-
 import org.bukkit.Material;
 import org.bukkit.entity.EntityType;
 import org.bukkit.entity.LivingEntity;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.entity.EntityDamageByEntityEvent;
-
 import ru.util.WorldHelper;
+
+import java.util.List;
 
 public class AchievementBlowDragon extends DoncAchievement {
 

@@ -1,18 +1,17 @@
 package ru.commands;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.command.TabCompleter;
 import org.bukkit.entity.Player;
-
 import ru.achievements.AchievementManager;
 import ru.achievements.DoncAchievement;
 import ru.main.HardcorePlugin;
 import ru.util.MathUtils;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class CommandSetAchievement implements CommandExecutor, TabCompleter {
 

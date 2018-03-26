@@ -1,5 +1,6 @@
 package ru.bosses;
 
+import de.slikey.effectlib.util.ParticleEffect;
 import org.bukkit.ChatColor;
 import org.bukkit.Color;
 import org.bukkit.Material;
@@ -15,8 +16,6 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
 import org.bukkit.util.Vector;
-
-import de.slikey.effectlib.util.ParticleEffect;
 import ru.items.CustomItems;
 import ru.util.MathUtils;
 

@@ -1,13 +1,12 @@
 package ru.util;
 
-import java.io.File;
-import java.io.IOException;
-
 import org.bukkit.ChatColor;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.entity.Player;
-
 import ru.main.HardcorePlugin;
+
+import java.io.File;
+import java.io.IOException;
 
 public class PlayerOptions {
 
