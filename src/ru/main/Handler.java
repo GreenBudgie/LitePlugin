@@ -138,7 +138,9 @@ public class Handler implements Listener {
 			Item item = (Item) e.getCaught();
 			if(item != null && item.getItemStack() != null) {
 				ItemStack stack = item.getItemStack();
-				EnchantmentManager.enchantItemAsTreasure(stack, 75, 1);
+				if(InventoryHelper.hasEnchants(stack)) {
+					EnchantmentManager.enchantItemAsTreasure(stack, 75, 1);
+				}
 			}
 		}
 	}
