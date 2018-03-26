@@ -22,6 +22,7 @@ import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.InventoryHolder;
 import org.bukkit.inventory.ItemStack;
 import ru.achievements.AchievementManager;
+import ru.achievements.ContainerAchievement;
 import ru.enchants.CustomEnchant;
 import ru.enchants.EnchantmentManager;
 import ru.enchants.EnchantmentTimber;
@@ -50,6 +51,9 @@ public class Handler implements Listener {
 			e.setJoinMessage(ChatColor.YELLOW + str);
 		} else {
 			e.setJoinMessage(PlayerOptions.getMessage(p, true));
+		}
+		for(ContainerAchievement ach : AchievementManager.getContainerAchievements()) {
+			ach.tryComplete(p);
 		}
 		plugin.registerPlayerPosPerm(p);
 		plugin.savePosPerm();
