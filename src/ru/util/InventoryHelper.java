@@ -1,11 +1,7 @@
 package ru.util;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Random;
-
+import com.google.common.collect.Lists;
+import net.minecraft.server.v1_12_R1.*;
 import org.bukkit.ChatColor;
 import org.bukkit.Color;
 import org.bukkit.Material;
@@ -16,7 +12,6 @@ import org.bukkit.craftbukkit.v1_12_R1.inventory.CraftItemStack;
 import org.bukkit.enchantments.Enchantment;
 import org.bukkit.enchantments.EnchantmentTarget;
 import org.bukkit.entity.Item;
-import org.bukkit.entity.LivingEntity;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemFlag;
@@ -27,19 +22,9 @@ import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.inventory.meta.PotionMeta;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
-
-import com.google.common.collect.Lists;
-
-import net.minecraft.server.v1_12_R1.ChatMessageType;
-import net.minecraft.server.v1_12_R1.IChatBaseComponent;
-import net.minecraft.server.v1_12_R1.NBTTagCompound;
-import net.minecraft.server.v1_12_R1.NBTTagDouble;
-import net.minecraft.server.v1_12_R1.NBTTagInt;
-import net.minecraft.server.v1_12_R1.NBTTagList;
-import net.minecraft.server.v1_12_R1.NBTTagString;
-import net.minecraft.server.v1_12_R1.PacketPlayOutChat;
-import net.minecraft.server.v1_12_R1.TileEntityFurnace;
 import ru.main.HardcorePlugin;
+
+import java.util.*;
 
 public class InventoryHelper {
 
@@ -527,19 +512,6 @@ public class InventoryHelper {
 		setLore(item, lore);
 		setItemGlowing(item);
 		return item;
-	}
-
-	public static boolean addNormalPotionEffect(LivingEntity e, PotionEffect effect) {
-		PotionEffect active = e.getPotionEffect(effect.getType());
-		if(active != null) {
-			boolean flag = active.getAmplifier() > effect.getAmplifier();
-			if(flag || (active.getDuration() > effect.getDuration() && !flag)) {
-				return false;
-			}
-			e.removePotionEffect(active.getType());
-		}
-		e.addPotionEffect(effect);
-		return true;
 	}
 
 	public static void give(Player p, ItemStack item) {

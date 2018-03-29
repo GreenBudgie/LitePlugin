@@ -14,7 +14,6 @@ import org.bukkit.event.player.PlayerItemDamageEvent;
 import org.bukkit.event.player.PlayerMoveEvent;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.util.Vector;
-
 import ru.util.MathUtils;
 
 public class EnchantmentInferno extends DoncEnchantment {
@@ -92,8 +91,8 @@ public class EnchantmentInferno extends DoncEnchantment {
 	public void proceedMagmaDamage(EntityDamageByBlockEvent e) {
 		if(e.getEntity() instanceof Player) {
 			Player p = (Player) e.getEntity();
-			
-			if(EnchantmentManager.hasCustomEnchant(p.getInventory().getBoots(), EnchantmentManager.STEP) && e.getDamager().getType() == Material.MAGMA) {
+			if(p.getInventory().getBoots() != null && EnchantmentManager.hasCustomEnchant(p.getInventory().getBoots(), EnchantmentManager.STEP)
+					&& e.getDamager().getType() == Material.MAGMA) {
 				e.setCancelled(true);
 			}
 		}

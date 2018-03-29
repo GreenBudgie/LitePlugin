@@ -1,5 +1,7 @@
 package ru.bosses;
 
+import de.slikey.effectlib.effect.LineEffect;
+import de.slikey.effectlib.util.ParticleEffect;
 import org.bukkit.Color;
 import org.bukkit.Location;
 import org.bukkit.Sound;
@@ -7,11 +9,8 @@ import org.bukkit.attribute.Attribute;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.LivingEntity;
 import org.bukkit.potion.PotionEffect;
-
-import de.slikey.effectlib.effect.LineEffect;
-import de.slikey.effectlib.util.ParticleEffect;
 import ru.main.HardcorePlugin;
-import ru.util.InventoryHelper;
+import ru.util.EntityHelper;
 import ru.util.MathUtils;
 import ru.util.WorldHelper;
 
@@ -38,7 +37,7 @@ public final class BossHelper {
 
 	public static void addEffect(LivingEntity e, PotionEffect... effects) {
 		for(PotionEffect ef : effects) {
-			InventoryHelper.addNormalPotionEffect(e, ef);
+			EntityHelper.addNormalPotionEffect(e, ef);
 		}
 	}
 	

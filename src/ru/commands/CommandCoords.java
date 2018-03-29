@@ -1,8 +1,6 @@
 package ru.commands;
 
-import java.util.ArrayList;
-import java.util.List;
-
+import com.google.common.collect.Lists;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Location;
@@ -11,15 +9,11 @@ import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.command.TabCompleter;
 import org.bukkit.entity.Player;
-
-import com.google.common.collect.Lists;
-
 import ru.main.HardcorePlugin;
-import ru.util.Case;
-import ru.util.Marks;
-import ru.util.MathUtils;
-import ru.util.Names;
-import ru.util.WorldHelper;
+import ru.util.*;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class CommandCoords implements CommandExecutor, TabCompleter {
 

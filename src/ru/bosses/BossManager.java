@@ -1,17 +1,15 @@
 package ru.bosses;
 
-import java.util.ArrayList;
-import java.util.List;
-
+import com.google.common.collect.Lists;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.LivingEntity;
 import org.bukkit.event.Listener;
 import org.bukkit.metadata.MetadataValue;
-
-import com.google.common.collect.Lists;
-
 import ru.main.HardcorePlugin;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class BossManager {
 

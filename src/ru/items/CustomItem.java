@@ -1,8 +1,5 @@
 package ru.items;
 
-import java.util.HashMap;
-import java.util.Map;
-
 import org.bukkit.Material;
 import org.bukkit.block.Block;
 import org.bukkit.entity.Player;
@@ -10,8 +7,10 @@ import org.bukkit.event.block.BlockBreakEvent;
 import org.bukkit.event.block.BlockPlaceEvent;
 import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.inventory.ItemStack;
-
 import ru.util.InventoryHelper;
+
+import java.util.HashMap;
+import java.util.Map;
 
 public abstract class CustomItem {
 

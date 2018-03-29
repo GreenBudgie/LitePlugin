@@ -1,22 +1,15 @@
 package ru.bosses;
 
+import de.slikey.effectlib.util.ParticleEffect;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
-import org.bukkit.entity.Blaze;
-import org.bukkit.entity.Entity;
-import org.bukkit.entity.EntityType;
-import org.bukkit.entity.Fireball;
-import org.bukkit.entity.LivingEntity;
-import org.bukkit.entity.Player;
-import org.bukkit.entity.SmallFireball;
+import org.bukkit.entity.*;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.entity.EntityDamageByEntityEvent;
 import org.bukkit.event.entity.ProjectileLaunchEvent;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.projectiles.ProjectileSource;
-
-import de.slikey.effectlib.util.ParticleEffect;
 import ru.items.CustomItems;
 import ru.util.MathUtils;
 

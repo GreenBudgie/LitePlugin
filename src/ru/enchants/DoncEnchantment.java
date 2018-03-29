@@ -4,7 +4,6 @@ import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.enchantments.Enchantment;
 import org.bukkit.event.Listener;
-
 import ru.main.HardcorePlugin;
 
 public abstract class DoncEnchantment extends Enchantment implements Listener {

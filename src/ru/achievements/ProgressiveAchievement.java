@@ -1,10 +1,10 @@
 package ru.achievements;
 
+import org.bukkit.entity.Player;
+
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
-import org.bukkit.entity.Player;
 
 public abstract class ProgressiveAchievement extends DoncAchievement {
 

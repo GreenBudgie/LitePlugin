@@ -1,18 +1,17 @@
 package ru.util;
 
+import org.bukkit.Bukkit;
+import org.bukkit.ChatColor;
+import org.bukkit.configuration.file.YamlConfiguration;
+import org.bukkit.entity.Player;
+import ru.main.HardcorePlugin;
+import ru.util.PlayerOptions.Option;
+
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
-
-import org.bukkit.Bukkit;
-import org.bukkit.ChatColor;
-import org.bukkit.configuration.file.YamlConfiguration;
-import org.bukkit.entity.Player;
-
-import ru.main.HardcorePlugin;
-import ru.util.PlayerOptions.Option;
 
 public class Names {
 

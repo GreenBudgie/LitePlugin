@@ -1,9 +1,5 @@
 package ru.enchants;
 
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
-
 import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.Particle;
@@ -15,9 +11,12 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.player.PlayerToggleSneakEvent;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.util.Vector;
-
 import ru.util.MathUtils;
 import ru.util.PlayerJumpEvent;
+
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
 
 public class EnchantmentEvasion extends DoncEnchantment {
 

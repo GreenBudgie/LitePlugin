@@ -35,7 +35,6 @@ public class AchievementManager {
 	public static final AchievementShulker achShulker = new AchievementShulker();
 	public static final AchievementBlowDragon achBlowDragon = new AchievementBlowDragon();
 	public static final AchievementDirt achDirt = new AchievementDirt();
-	public static final AchievementBath achBath = new AchievementBath();
 	public static final AchievementDanch achDanch = new AchievementDanch();
 	public static final AchievementOrez achOrez = new AchievementOrez();
 	public static final AchievementBoss achBoss = new AchievementBoss();
@@ -72,7 +71,7 @@ public class AchievementManager {
 
 	public static void init() {
 		registerAll(achSpider, achEndermite, achEnderman, achLava, achWither, achDaniyal, achMusic, achArmor, achMekita, achSword, achSword2, achDeath, achCreeper, achGold,
-				achFall, achEnch, achBlaze, achSkeleton, achGuard, achShulker, achBlowDragon, achDirt, achBath, achDanch, achOrez, achBoss, achTame, achObsidian, achStats, achVlad,
+				achFall, achEnch, achBlaze, achSkeleton, achGuard, achShulker, achBlowDragon, achDirt, achDanch, achOrez, achBoss, achTame, achObsidian, achStats, achVlad,
 				achPukSpider, achBotania, achChickens, achEnderPearl, achCake, achMagma, achSoulbind, achNotDaniyal, achOrezTupoi, achVindicator, achBed, achEnchantedChainmail,
 				achRevenge, achUselessSlaughterer);
 		sort();
@@ -163,6 +162,14 @@ public class AchievementManager {
 				if(a.getClass().getSimpleName().equalsIgnoreCase(s)) {
 					del = false;
 					break;
+				}
+			}
+			if(del) {
+				for(ContainerAchievement a : contAchievements) {
+					if(a.getClass().getSimpleName().equalsIgnoreCase(s)) {
+						del = false;
+						break;
+					}
 				}
 			}
 			if(del) {

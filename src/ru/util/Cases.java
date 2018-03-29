@@ -1,12 +1,11 @@
 package ru.util;
 
+import com.google.common.collect.Lists;
+import org.bukkit.configuration.serialization.ConfigurationSerializable;
+
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
-import org.bukkit.configuration.serialization.ConfigurationSerializable;
-
-import com.google.common.collect.Lists;
 
 public class Cases implements ConfigurationSerializable {
 

@@ -5,7 +5,6 @@ import org.bukkit.enchantments.Enchantment;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.entity.EntityDeathEvent;
-
 import ru.bosses.BossManager;
 
 public class AchievementPukSpider extends CounterAchievement {

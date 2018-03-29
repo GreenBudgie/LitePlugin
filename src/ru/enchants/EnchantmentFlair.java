@@ -1,8 +1,5 @@
 package ru.enchants;
 
-import java.lang.reflect.Field;
-import java.util.Set;
-
 import org.bukkit.Material;
 import org.bukkit.block.Block;
 import org.bukkit.enchantments.Enchantment;
@@ -13,11 +10,13 @@ import org.bukkit.event.block.Action;
 import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.PlayerInventory;
-
 import ru.util.MathUtils;
 import ru.util.PlayerOptions;
 import ru.util.WorldHelper;
 import ru.util.WorldHelper.EnumDimension;
+
+import java.lang.reflect.Field;
+import java.util.Set;
 
 public class EnchantmentFlair extends DoncEnchantment {
 

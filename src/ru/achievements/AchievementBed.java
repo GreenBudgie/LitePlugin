@@ -4,7 +4,6 @@ import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.block.BlockExplodeEvent;
-
 import ru.util.WorldHelper;
 
 public class AchievementBed extends CounterAchievement {

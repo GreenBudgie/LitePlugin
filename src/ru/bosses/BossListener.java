@@ -1,7 +1,6 @@
 package ru.bosses;
 
-import java.util.List;
-
+import de.slikey.effectlib.util.ParticleEffect;
 import org.bukkit.Color;
 import org.bukkit.Material;
 import org.bukkit.attribute.Attribute;
@@ -13,21 +12,17 @@ import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
-import org.bukkit.event.entity.CreatureSpawnEvent;
+import org.bukkit.event.entity.*;
 import org.bukkit.event.entity.CreatureSpawnEvent.SpawnReason;
-import org.bukkit.event.entity.EntityDamageByEntityEvent;
-import org.bukkit.event.entity.EntityDamageEvent;
 import org.bukkit.event.entity.EntityDamageEvent.DamageCause;
-import org.bukkit.event.entity.EntityDeathEvent;
-import org.bukkit.event.entity.EntityTargetLivingEntityEvent;
 import org.bukkit.event.player.PlayerInteractEntityEvent;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.metadata.FixedMetadataValue;
 import org.bukkit.potion.PotionEffect;
-
-import de.slikey.effectlib.util.ParticleEffect;
 import ru.main.HardcorePlugin;
 import ru.util.MathUtils;
+
+import java.util.List;
 
 public class BossListener implements Listener {
 

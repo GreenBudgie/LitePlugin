@@ -1,5 +1,6 @@
 package ru.commands;
 
+import net.md_5.bungee.api.ChatColor;
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.command.Command;
@@ -8,8 +9,6 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
-
-import net.md_5.bungee.api.ChatColor;
 import ru.util.InventoryHelper;
 
 public class CommandPlugin implements CommandExecutor {

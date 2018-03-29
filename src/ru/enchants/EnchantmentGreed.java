@@ -1,5 +1,6 @@
 package ru.enchants;
 
+import de.slikey.effectlib.util.ParticleEffect;
 import org.bukkit.Color;
 import org.bukkit.Material;
 import org.bukkit.Sound;
@@ -14,10 +15,8 @@ import org.bukkit.event.entity.EntityDamageEvent.DamageCause;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
-
-import de.slikey.effectlib.util.ParticleEffect;
 import ru.bosses.BossHelper;
-import ru.util.InventoryHelper;
+import ru.util.EntityHelper;
 import ru.util.MathUtils;
 
 public class EnchantmentGreed extends DoncEnchantment {
@@ -101,12 +100,12 @@ public class EnchantmentGreed extends DoncEnchantment {
 						PotionEffect pef = new PotionEffect(
 								(PotionEffectType) MathUtils.choose(PotionEffectType.INCREASE_DAMAGE, PotionEffectType.REGENERATION),
 								MathUtils.randomRange(level * 50, level * 100), (MathUtils.chance(level * level) ? 1 : 0));
-						InventoryHelper.addNormalPotionEffect(p, pef);
+						EntityHelper.addNormalPotionEffect(p, pef);
 					} else if(MathUtils.chance(level)) {
 						BossHelper.spawnParticlesAround(e.getEntity(), ParticleEffect.FLAME, 20);
 						p.getWorld().playSound(e.getEntity().getLocation(), Sound.ENTITY_EVOCATION_ILLAGER_PREPARE_WOLOLO, 1.5F, 1);
 						PotionEffect pef = new PotionEffect(PotionEffectType.ABSORPTION, MathUtils.randomRange(level * 150, level * 300), 2);
-						InventoryHelper.addNormalPotionEffect(p, pef);
+						EntityHelper.addNormalPotionEffect(p, pef);
 					}
 				}
 			}

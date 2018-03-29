@@ -1,13 +1,12 @@
 package ru.util;
 
-import java.io.File;
-import java.io.IOException;
-
 import org.bukkit.ChatColor;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.entity.Player;
-
 import ru.main.HardcorePlugin;
+
+import java.io.File;
+import java.io.IOException;
 
 public class PlayerOptions {
 
@@ -16,14 +15,14 @@ public class PlayerOptions {
 	public static YamlConfiguration options = YamlConfiguration.loadConfiguration(opt);
 
 	public static enum Option {
-		LongRequirements(false),
+		LongRequirements(true),
 		Danchmode(false),
 		JoinMes("null"),
 		QuitMes("null"),
 		Flair("miner"), // on, miner, off
 		MoltenCore("miner"), // on, miner, off
 		CompassBind(true),
-		MoltenCoreShift(true);
+		MoltenCoreShift(false);
 
 		private Object defValue;
 

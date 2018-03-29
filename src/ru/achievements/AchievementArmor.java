@@ -5,7 +5,6 @@ import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.PlayerInventory;
 import org.bukkit.inventory.meta.LeatherArmorMeta;
-
 import ru.main.HardcorePlugin;
 
 public class AchievementArmor extends InventoryBasedAchievement {

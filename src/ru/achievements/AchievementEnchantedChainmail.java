@@ -1,16 +1,10 @@
 package ru.achievements;
 
 import com.google.common.collect.Lists;
-import org.apache.commons.lang.ObjectUtils;
 import org.bukkit.Material;
-import org.bukkit.enchantments.Enchantment;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.enchantment.EnchantItemEvent;
-import ru.enchants.EnchantmentManager;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class AchievementEnchantedChainmail extends ProgressiveAchievement {
 

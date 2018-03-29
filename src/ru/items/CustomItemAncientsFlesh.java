@@ -1,7 +1,5 @@
 package ru.items;
 
-import java.util.List;
-
 import org.bukkit.ChatColor;
 import org.bukkit.Location;
 import org.bukkit.Material;
@@ -14,9 +12,10 @@ import org.bukkit.event.player.PlayerItemConsumeEvent;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
 import org.bukkit.util.Vector;
-
-import ru.util.InventoryHelper;
+import ru.util.EntityHelper;
 import ru.util.WorldHelper;
+
+import java.util.List;
 
 public class CustomItemAncientsFlesh extends CustomItem implements Listener {
 
@@ -36,7 +35,7 @@ public class CustomItemAncientsFlesh extends CustomItem implements Listener {
 	public void eat(PlayerItemConsumeEvent e) {
 		if(this.isEquals(e.getItem())) {
 			Player p = e.getPlayer();
-			InventoryHelper.addNormalPotionEffect(p, new PotionEffect(PotionEffectType.REGENERATION, 100, 0));
+			EntityHelper.addNormalPotionEffect(p, new PotionEffect(PotionEffectType.REGENERATION, 100, 0));
 			p.getWorld().strikeLightningEffect(p.getLocation());
 			List<Entity> list = WorldHelper.getEntitiesDistance(p.getLocation(), 8);
 			for(Entity ent : list) {

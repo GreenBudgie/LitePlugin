@@ -1,8 +1,5 @@
 package ru.util;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
@@ -15,12 +12,14 @@ import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemFlag;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
-
 import ru.commands.CommandAch;
 import ru.commands.CommandBoss;
 import ru.commands.CommandPlugin;
 import ru.enchants.DoncEnchantment;
 import ru.enchants.EnchantmentManager;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class GuiHandler implements Listener {
 

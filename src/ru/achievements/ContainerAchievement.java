@@ -1,9 +1,9 @@
 package ru.achievements;
 
+import org.bukkit.entity.Player;
+
 import java.util.ArrayList;
 import java.util.List;
-
-import org.bukkit.entity.Player;
 
 public abstract class ContainerAchievement extends DoncAchievement {
 

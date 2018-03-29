@@ -1,7 +1,6 @@
 package ru.bosses;
 
 import org.bukkit.inventory.ItemStack;
-
 import ru.util.MathUtils;
 
 public class BossDrop {
